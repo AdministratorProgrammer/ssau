@@ -1100,12 +1100,195 @@
         <z:linkMode>1</z:linkMode>
         <link:type>application/pdf</link:type>
     </z:Attachment>
+    <bib:Article rdf:about="https://research-journal.org/archive/5-155-2025-may/10.60797/IRJ.2025.155.1">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2303-9868"/>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>ООО Цифра</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Милаков</foaf:surname>
+                        <foaf:givenName>Александр</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:contributors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>А.С.</foaf:surname>
+                        <foaf:givenName>Милаков</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:contributors>
+        <dcterms:isReferencedBy rdf:resource="#item_46"/>
+        <link:link rdf:resource="#item_44"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>banks</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>common criteria</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>confidence score</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>dynamic analysis</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>financial organisations</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>mobile applications</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>static analysis</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>testing</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>threat model</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>threats</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>vulnerabilities</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>vulnerability analysis</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>web applications</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>анализ уязвимостей</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>банки</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>веб-приложения</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>динамический анализ</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>мобильные приложения</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>модель угроз</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>общие критерии</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>оценочный уровень доверия</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>статический анализ</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>тестирование</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>угрозы</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>уязвимости</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>финансовые организации</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Тестирование и анализ уязвимостей мобильных и веб-приложений на основе «Общих критериев»</dc:title>
+        <dcterms:abstract>The article examines the vulnerability of mobile and web applications, as well as the threats that can violate the confidentiality, integrity and availability of information. The author analyses the problem of application security breaches, which is especially relevant in the financial sphere. This issue can be addressed through periodic vulnerability assessment of financial applications. The paper provides a literature review on the subject of testing and analysing application vulnerabilities according to the methodology of GOST R ISO/IEC 18045-2013. The author describes in detail the process of testing mobile and web applications based on the ‘Common criteria'. The paper discusses the practice of application testing and focused application vulnerability analysis. The workprovides practical results of evaluating a web application for vulnerabilities according to the estimated confidence levels (GTC-4). Based on the results of application testing, the author concludes that it is necessary to implement secure application development processes in companies that create software for the financial sector.</dcterms:abstract>
+        <dc:date>2025-05-16</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://research-journal.org/archive/5-155-2025-may/10.60797/IRJ.2025.155.1</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-09-09 17:22:56</dcterms:dateSubmitted>
+        <z:language>ru</z:language>
+        <z:libraryCatalog>DOI.org (Datacite)</z:libraryCatalog>
+        <dc:rights>Creative Commons Attribution 4.0 International</dc:rights>
+        <dc:description>Artwork Size: 16
+Medium: text/html</dc:description>
+        <bib:pages>16</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2303-9868">
+        <dc:identifier>DOI 10.60797/IRJ.2025.155.1</dc:identifier>
+        <dc:title>Международный научно-исследовательский журнал</dc:title>
+        <dc:identifier>ISSN 2303-9868</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_46">
+        <rdf:value>&lt;h2&gt;SeriesInformation&lt;/h2&gt;
+Международный научно-исследовательский журнал, Выпуск 5 (155) 2025</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_44">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/44/Милаков - 2025 - Тестирование и анализ уязвимостей мобильных и веб-приложений на основе «Общих критериев».pdf"/>
+        <dc:title>PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://research-journal.org/media/articles/16537.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-09-09 17:22:52</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_47">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/47/YAnovich_Nedostatok.pdf"/>
+        <dc:title>YAnovich_Nedostatok.pdf</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://libeldoc.bsuir.by/bitstream/123456789/59594/1/YAnovich_Nedostatok.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-09-09 17:23:22</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
     <z:Collection rdf:about="#collection_2">
         <dc:title>1_Vulnerabilities</dc:title>
         <dcterms:hasPart rdf:resource="urn:isbn:978-1-5386-6947-1"/>
         <dcterms:hasPart rdf:resource="#item_9"/>
         <dcterms:hasPart rdf:resource="urn:isbn:978-1-4799-8676-7"/>
         <dcterms:hasPart rdf:resource="https://dl.acm.org/doi/10.1145/3474553"/>
+        <dcterms:hasPart rdf:resource="https://research-journal.org/archive/5-155-2025-may/10.60797/IRJ.2025.155.1"/>
+        <dcterms:hasPart rdf:resource="#item_47"/>
     </z:Collection>
     <z:Collection rdf:about="#collection_5">
         <dc:title>2_Penetration_Testing_and_Attacks</dc:title>
@@ -1115,6 +1298,7 @@
         <dcterms:hasPart rdf:resource="#item_22"/>
         <dcterms:hasPart rdf:resource="https://drive.google.com/file/d/1t8ZETcmoFz3847OajBNdKQLnquPMxuFT/view"/>
         <dcterms:hasPart rdf:resource="urn:isbn:979-8-4007-0636-3"/>
+        <dcterms:hasPart rdf:resource="https://research-journal.org/archive/5-155-2025-may/10.60797/IRJ.2025.155.1"/>
     </z:Collection>
     <z:Collection rdf:about="#collection_4">
         <dc:title>3_Secure_Development</dc:title>
