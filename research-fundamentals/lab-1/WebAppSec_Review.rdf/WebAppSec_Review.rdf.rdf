@@ -1,0 +1,1128 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:vcard="http://nwalsh.com/rdf/vCard#"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/">
+    <rdf:Description rdf:about="urn:isbn:978-1-5386-6947-1">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>DOI 10.1109/CCAA.2018.8777558</dc:identifier>
+                <dc:identifier>ISBN 978-1-5386-6947-1</dc:identifier>
+                <dc:title>2018 4th International Conference on Computing Communication and Automation (ICCCA)</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>IEEE</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Greater Noida, India</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yadav</foaf:surname>
+                        <foaf:givenName>Divyani</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gupta</foaf:surname>
+                        <foaf:givenName>Deeksha</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Singh</foaf:surname>
+                        <foaf:givenName>Dhananjay</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kumar</foaf:surname>
+                        <foaf:givenName>Devendra</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sharma</foaf:surname>
+                        <foaf:givenName>Upasana</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_6"/>
+        <dc:title>Vulnerabilities and Security of Web Applications</dc:title>
+        <dcterms:abstract>Web applications are active websites which are composition of server based programs serving user interaction and various other functionalities. Web Server security is thus an important aspect for any organisation having web server connectivity with the internet and also to ensure customers using their websites, for a secure online portal.</dcterms:abstract>
+        <dc:date>12/2018</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ieeexplore.ieee.org/document/8777558/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-09-09 15:44:44</dcterms:dateSubmitted>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <bib:pages>1-5</bib:pages>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>2018 4th International Conference on Computing Communication and Automation (ICCCA)</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_6">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/6/Yadav et al. - 2018 - Vulnerabilities and Security of Web Applications.pdf"/>
+        <dc:title>PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.researchgate.net/profile/Dhananjay-Singh-23/publication/334767346_Vulnerabilities_and_Security_of_Web_Applications/links/60b4ee48a6fdcc1c66f876d9/Vulnerabilities-and-Security-of-Web-Applications.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-09-09 15:44:41</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_9">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Felmetsger</foaf:surname>
+                        <foaf:givenName>Viktoria</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cavedon</foaf:surname>
+                        <foaf:givenName>Ludovico</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kruegel</foaf:surname>
+                        <foaf:givenName>Christopher</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vigna</foaf:surname>
+                        <foaf:givenName>Giovanni</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_8"/>
+        <dc:title>Toward Automated Detection of Logic Vulnerabilities in Web Applications</dc:title>
+        <dcterms:abstract>Web applications are the most common way to make services and data available on the Internet. Unfortunately, with the increase in the number and complexity of these applications, there has also been an increase in the number and complexity of vulnerabilities. Current techniques to identify security problems in web applications have mostly focused on input validation ﬂaws, such as crosssite scripting and SQL injection, with much less attention devoted to application logic vulnerabilities.</dcterms:abstract>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_8">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/8/Felmetsger et al. - Toward Automated Detection of Logic Vulnerabilities in Web Applications.pdf"/>
+        <dc:title>PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.usenix.org/legacy/event/sec10/tech/full_papers/Felmetsger.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-09-09 15:45:30</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="urn:isbn:978-1-4799-8676-7">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>DOI 10.1109/SNPD.2015.7176244</dc:identifier>
+                <dc:identifier>ISBN 978-1-4799-8676-7</dc:identifier>
+                <dc:title>2015 IEEE/ACIS 16th International Conference on Software Engineering, Artificial Intelligence, Networking and Parallel/Distributed Computing (SNPD)</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>IEEE</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Takamatsu</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rafique</foaf:surname>
+                        <foaf:givenName>Sajjad</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Humayun</foaf:surname>
+                        <foaf:givenName>Mamoona</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hamid</foaf:surname>
+                        <foaf:givenName>Bushra</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Abbas</foaf:surname>
+                        <foaf:givenName>Ansar</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Akhtar</foaf:surname>
+                        <foaf:givenName>Muhammad</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Iqbal</foaf:surname>
+                        <foaf:givenName>Kamil</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_10"/>
+        <dc:title>Web application security vulnerabilities detection approaches: A systematic mapping study</dc:title>
+        <dcterms:abstract>Number of security vulnerabilities in web application has grown with the tremendous growth of web application in last two decades. As the domain of Web Applications is maturing, large number of empirical studies has been reported in web applications to address the solution of vulnerable web application. However, before advancing towards finding new approaches of web applications security vulnerability detection, there is a need to analyze and synthesize existing evidence based studies in web applications area. To do this, we have planned to conduct a systematic mapping study to view and report the state-of-the-art of empirical work in existing research of web applications. In this paper, we aimed at providing a description of mapping study for synthesizing the reported empirical research in the area of web applications security vulnerabilities detection approaches. The proposed solutions are mapped against: (1) the software development stages for which the solution has been proposed and (2) the web application vulnerabilities mapping according to OWASP Top 10 security vulnerabilities. To do this, existing literature has been surveyed using a systematic mapping study by phrasing two research questions. In the mapping study, a total of 41 studies dating from 1994 to 2014 were evaluated and mapped against the aforementioned categories.</dcterms:abstract>
+        <dc:date>6/2015</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://ieeexplore.ieee.org/document/7176244/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-09-09 15:46:56</dcterms:dateSubmitted>
+        <z:shortTitle>Web application security vulnerabilities detection approaches</z:shortTitle>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <bib:pages>1-6</bib:pages>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>2015 IEEE/ACIS 16th International Conference on Software Engineering, Artificial Intelligence, Networking and Parallel/Distributed Computing (SNPD)</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_10">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/10/Rafique et al. - 2015 - Web application security vulnerabilities detection approaches A systematic mapping study.pdf"/>
+        <dc:title>PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://d1wqtxts1xzle7.cloudfront.net/39228646/web_app-libre.pdf?1444995642=&amp;response-content-disposition=inline%3B+filename%3DWeb_app.pdf&amp;Expires=1788972397&amp;Signature=LnqqKM91sWjaXNOPMnaB4EHygyQymfWynJBMRaKzJztRRMprTpiIPvf6zk458H2NK9ZHuBuZk~a4U6OfjOiDsWPxwQI8stdq-~VAR4KVnhzgzwgiHC9G4I3efdovagm27rJvEd3BF3~gH3tYMLdeCBQ~aD4bYByD8lN5rY4FfRBkM7JNUs8q2l3pf1cOSU14mrvDN-i6YtQPbh4ugcpr637G8bW2p79VwxPKY85SlYVn~WFwklkDrB9lDA6a5J~l1dbh5vNZy~ityekiubk1Q5F25~11ZpZhTcCAkPG4euAeqYFm9kLgQgR1vgO2J5unNwHBhbmovpom-f-nVx3xtg__&amp;Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-09-09 15:46:53</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.ijitee.org/portfolio-item/J91730881019/">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:22783075"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Assistant professor, Department of IT, Sri Krishna College of Engineering and Technology.</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>K</foaf:surname>
+                        <foaf:givenName>Nagendran</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>A</foaf:surname>
+                        <foaf:givenName>Adithyan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>lectures at various worshops and Universities including Defcon Trivandrum and IITM Research Park.</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ravichandran</foaf:surname>
+                        <foaf:givenName>Chethana</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>pursuing third year in the branch of information technology.</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Varshini K B</foaf:surname>
+                        <foaf:givenName>Bala Sri</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>pursuing Third year B.Tech. Information Technology at Sri Krishna College Of Engineering and Technology</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>P</foaf:surname>
+                        <foaf:givenName>Camillus</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>pursuing B.tech information technology at Sri Krishna College of engineering and technology</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_13"/>
+        <dc:title>Web Application Penetration Testing</dc:title>
+        <dcterms:abstract>This paper describes the in-depth technical approach to perform manual penetration test in web applications for testing the integrity and security of the application and also serves as a guide to test OWASP top 10 security vulnerabilities. The paper is more focused on providing detailed knowledge about manual web application penetration testing methodologies in order to secure them from malicious black hat hackers.</dcterms:abstract>
+        <dc:date>2019-08-30</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.ijitee.org/portfolio-item/J91730881019/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-09-09 15:47:44</dcterms:dateSubmitted>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <bib:pages>1029-1035</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:22783075">
+        <dc:identifier>DOI 10.35940/ijitee.J9173.0881019</dc:identifier>
+        <prism:volume>8</prism:volume>
+        <dc:title>International Journal of Innovative Technology and Exploring Engineering</dc:title>
+        <dc:identifier>ISSN 22783075</dc:identifier>
+        <prism:number>10</prism:number>
+        <dcterms:alternative>IJITEE</dcterms:alternative>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_13">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/13/Assistant professor, Department of IT, Sri Krishna College of Engineering and Technology. et al. - 2019 - Web Application Penetration Testing.pdf"/>
+        <dc:title>PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://d1wqtxts1xzle7.cloudfront.net/105013940/J91730881019-libre.pdf?1692086155=&amp;response-content-disposition=inline%3B+filename%3DWeb_Application_Penetration_Testing.pdf&amp;Expires=1788972455&amp;Signature=Il5xQcCAn-XUew33ZXj80WXMTFCMBITec03Sj4wCpB~Db8Eq2q9frGiyV6ZhBjOaDDb18jQGKQhva9PzvDJn5bvkJNiNpaHNTfcx4XcS3F51-EbIAmV6ZjNO9PqphEugSJLrjgelPyitYamLaL9~sSB3vHUNJAlG8HSEwAOHICwi9jesFxY4D2pGQUriX~zCwh2y45Xt83dWM~KbbpInluHQRXpDciHKjiyMznREVDWdTomx80~BcNGzwt3c4o7ECw-~m7ztVuZhVIegooDfUwFlTuw6btpBLgKbVA5su2crcdU1fFuQHbQPDjYwS0mo7kCsMznTAVv4cYDZO28Jdw__&amp;Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-09-09 15:47:41</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.iieta.org/journals/rces/paper/10.18280/rces.090101">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:23690755,%2023690763"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ravindran</foaf:surname>
+                        <foaf:givenName>Urshila</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Potukuchi</foaf:surname>
+                        <foaf:givenName>Raghu Vamsi</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_15"/>
+        <dc:title>A Review on Web Application Vulnerability Assessment and Penetration Testing</dc:title>
+        <dc:date>2022-3-31</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.iieta.org/journals/rces/paper/10.18280/rces.090101</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-09-09 15:48:15</dcterms:dateSubmitted>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <bib:pages>1-22</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:23690755,%2023690763">
+        <dc:identifier>DOI 10.18280/rces.090101</dc:identifier>
+        <prism:volume>9</prism:volume>
+        <dc:title>Review of Computer Engineering Studies</dc:title>
+        <dc:identifier>ISSN 23690755, 23690763</dc:identifier>
+        <prism:number>1</prism:number>
+        <dcterms:alternative>RCES</dcterms:alternative>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_15">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/15/Ravindran and Potukuchi - 2022 - A Review on Web Application Vulnerability Assessment and Penetration Testing.pdf"/>
+        <dc:title>PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.researchgate.net/profile/Raghu-Potukuchi/publication/360135777_A_Review_on_Web_Application_Vulnerability_Assessment_and_Penetration_Testing/links/6291a97e55273755ebbbf6df/A-Review-on-Web-Application-Vulnerability-Assessment-and-Penetration-Testing.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-09-09 15:48:10</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="urn:isbn:979-8-3315-1018-3">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>DOI 10.1109/NCA61908.2024.00043</dc:identifier>
+                <dc:identifier>ISBN 979-8-3315-1018-3</dc:identifier>
+                <dc:title>2024 22nd International Symposium on Network Computing and Applications (NCA)</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>IEEE</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Bertinoro, Italy</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sánchez</foaf:surname>
+                        <foaf:givenName>Gustavo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Olayinka</foaf:surname>
+                        <foaf:givenName>Olakunle</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pasikhani</foaf:surname>
+                        <foaf:givenName>Aryan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_19"/>
+        <dc:title>Web Application Penetration Testing with Artificial Intelligence: A Systematic Review</dc:title>
+        <dcterms:abstract>ÐPenetration testing is an intricate activity, yet vital for the security of web applications and the protection of user data. Due to its time-consuming nature, recent developments have emphasized the use of artificial intelligence to enhance efficiency, shorten testing times, and substantially improve penetration testing results. By combining artificial intelligence with conventional penetration testing techniques, researchers aim to improve the processes, providing organizations with the means to create stronger web applications. This paper presents a thorough review of research conducted between 2013 and 2024 on the application of artificial intelligence in web application penetration testing. We highlight advancements and challenges in employing learningbased methods to enhance penetration testing, providing a comprehensive overview of the current state and future directions in the field. Our results show that leveraging artificial intelligence has proven to be more efficient than traditional approaches, but they still face significant challenges.</dcterms:abstract>
+        <dc:date>2024-10-24</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ieeexplore.ieee.org/document/10945297/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-09-09 15:52:45</dcterms:dateSubmitted>
+        <z:shortTitle>Web Application Penetration Testing with Artificial Intelligence</z:shortTitle>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:rights>https://doi.org/10.15223/policy-029</dc:rights>
+        <bib:pages>236-245</bib:pages>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>2024 22nd International Symposium on Network Computing and Applications (NCA)</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_19">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/19/Sánchez et al. - 2024 - Web Application Penetration Testing with Artificial Intelligence A Systematic Review.pdf"/>
+        <dc:title>PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://eprints.whiterose.ac.uk/id/eprint/219328/1/Web_Application_Penetration_Testing_with_Artificial_Intelligence__A_Systematic_Review__NCA_24__%20%284%29.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-09-09 15:52:41</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_22">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vats</foaf:surname>
+                        <foaf:givenName>Prashant</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mandot</foaf:surname>
+                        <foaf:givenName>Manju</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gosain</foaf:surname>
+                        <foaf:givenName>Anjana</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_21"/>
+        <dc:title>A Comprehensive Literature Review of Penetration Testing &amp; Its Applications</dc:title>
+        <dcterms:abstract>The PEN testing allows a PEN tester to check the functional aspects of a system that how much a system is vulnerable to the Network security &amp; intrusion attacks &amp; to see its defense mechanisms to counterpart these attacks. In this research paper we have conducted a literature review on the work done by the various researchers in the area of Penetration (PEN) testing. We have tried to review the various aspects related to the PEN testing. We have also studied the various tools used for PEN testing in terms of their utility, technical specifications, date of their release, Platform compatibility etc. various aspects related to the PEN testing. We have also studied the various tools used for PEN testing in terms of their utility, technical specifications, date of their release, Platform compatibility etc.</dcterms:abstract>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_21">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/21/Vats et al. - A Comprehensive Literature Review of Penetration Testing &amp; Its Applications.pdf"/>
+        <dc:title>PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.researchgate.net/profile/Prashant-Vats/publication/336937253_A_Comprehensive_Literature_Review_of_Penetration_Testing_Its_Applications/links/65e76d5fadc608480a023484/A-Comprehensive-Literature-Review-of-Penetration-Testing-Its-Applications.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-09-09 15:54:29</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="urn:isbn:978-1-59593-352-2">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dcterms:isPartOf>
+                   <bib:Series><dc:title>ICWE '06</dc:title></bib:Series>
+                </dcterms:isPartOf>
+                <dc:identifier>DOI 10.1145/1145581.1145641</dc:identifier>
+                <dc:identifier>ISBN 978-1-59593-352-2</dc:identifier>
+                <dc:title>Proceedings of the 6th international conference on Web engineering</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Association for Computing Machinery</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>New York, NY, USA</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ge</foaf:surname>
+                        <foaf:givenName>Xiaocheng</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Paige</foaf:surname>
+                        <foaf:givenName>Richard F.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Polack</foaf:surname>
+                        <foaf:givenName>Fiona A.C.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chivers</foaf:surname>
+                        <foaf:givenName>Howard</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Brooke</foaf:surname>
+                        <foaf:givenName>Phillip J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_24"/>
+        <dc:title>Agile development of secure web applications</dc:title>
+        <dcterms:abstract>A secure system is one that is protected against specific undesired outcomes.Delivering a secure system, and particularly a secure web application, is not easy.Integrating general-purpose information systems development methods withsecurity development activities could be a useful means to surmount thesedifficulties Agile processes, such as Extreme Programming, are of increasing interest insoftware development. Most significantly for web applications, agile processesencourage and embrace requirements change, which is a desirable characteristicfor web application development.In this paper, we present an agile process to deliver secure web applications.The contribution of the research is not the development of a new method or processthat addresses security concerns. Rather, we investigate general-purpose informationsystemdevelopment methods (e.g., Feature-Driven Development (FDD)) and mature security methods, namely risk analysis, and integrate them to address the development of secure web applications. The key features of our approach are(1) a process capable of dealing with the key challenges of web applicationsdevelopment, namely decreasing life-cycle times and frequently changing requirements; and (2) an iterative approach to risk analysis that integrates security design throughout the development process.</dcterms:abstract>
+        <dc:date>July 11, 2006</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/10.1145/1145581.1145641</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-09-09</dcterms:dateSubmitted>
+        <z:libraryCatalog>ACM Digital Library</z:libraryCatalog>
+        <bib:pages>305–312</bib:pages>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_24">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/24/Ge et al. - 2006 - Agile development of secure web applications.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/pdf/10.1145/1145581.1145641?download=true</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-09-09 15:55:50</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Report rdf:about="https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-95.pdf">
+        <z:itemType>report</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Gaithersburg, MD</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>National Institute of Standards and Technology</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Singhal</foaf:surname>
+                        <foaf:givenName>A</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Winograd</foaf:surname>
+                        <foaf:givenName>T</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Scarfone</foaf:surname>
+                        <foaf:givenName>K A</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_25"/>
+        <dc:title>Guide to secure web services</dc:title>
+        <dc:date>2007</dc:date>
+        <dc:identifier>DOI 10.6028/NIST.SP.800-95</dc:identifier>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-95.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-09-09 15:57:14</dcterms:dateSubmitted>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:description>Edition: 0</dc:description>
+        <bib:pages>NIST SP 800-95</bib:pages>
+        <prism:number>NIST SP 800-95</prism:number>
+    </bib:Report>
+    <z:Attachment rdf:about="#item_25">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/25/Singhal et al. - 2007 - Guide to secure web services.pdf"/>
+        <dc:title>PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://csrc.nist.rip/library/NIST%20SP%20800-095%20Guide%20to%20Secure%20Web%20Services,%202007-08-29%20(Final).pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-09-09 15:57:11</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_28">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bar-Gad</foaf:surname>
+                        <foaf:givenName>Izhar</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Klein</foaf:surname>
+                        <foaf:givenName>Amit</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_27"/>
+        <dc:title>Developing Secure Web Applications</dc:title>
+        <dc:date>2002</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_27">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/27/Bar-Gad and Klein - 2002 - Developing Secure Web Applications.pdf"/>
+        <dc:title>PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.cgisecurity.com/lib/WhitePaper_DevelopingSecureWebApps.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-09-09 15:58:03</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_30">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tappenden</foaf:surname>
+                        <foaf:givenName>A F</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Huynh</foaf:surname>
+                        <foaf:givenName>T</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Miller</foaf:surname>
+                        <foaf:givenName>J</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Geras</foaf:surname>
+                        <foaf:givenName>A</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Smith</foaf:surname>
+                        <foaf:givenName>M</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_29"/>
+        <dc:title>Agile Development of Secure Web-Based Applications</dc:title>
+        <dcterms:abstract>This article outlines a four-point strategy for the development of secure Web-based applications within an agile development framework and introduces strategies to mitigate security risks commonly present in Web-based applications. The proposed strategy includes the representation of security requirements as test cases supported by the open source tool FIT, the deployment of a highly testable architecture allowing for security testing of the application at all levels, the outlining of an extensive security testing strategy supported by the open source unit-testing framework HTTPUnit, and the introduction of the novel technique of security refactoring that transforms insecure working code into a functionally equivalent secure code. Today, many Web-based applications are not secure, and limited literature exists concerning the use of agile methods within this domain. It is the intention of this article to further discussions and research regarding the use of an agile methodology for the development of secure Web-based applications.</dcterms:abstract>
+        <dc:date>2006</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_29">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/29/Tappenden et al. - 2006 - Agile Development of Secure Web-Based Applications.pdf"/>
+        <dc:title>PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.researchgate.net/profile/Toan-Huynh-6/publication/220156007_Agile_Development_of_Secure_Web-Based_Applications/links/5e8ed027a6fdcca7890201a5/Agile-Development-of-Secure-Web-Based-Applications.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-09-09 15:58:43</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://drive.google.com/file/d/1t8ZETcmoFz3847OajBNdKQLnquPMxuFT/view">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_32"/>
+        <dc:title>DDoS_Attacks_at_the_Application_Layer_Challenges_and_Research_Perspectives_for_Safeguarding_Web_Applications.pdf - Google Диск</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://drive.google.com/file/d/1t8ZETcmoFz3847OajBNdKQLnquPMxuFT/view</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-09-09 16:04:59</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_32">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/32/view.html"/>
+        <dc:title>DDoS_Attacks_at_the_Application_Layer_Challenges_and_Research_Perspectives_for_Safeguarding_Web_Applications.pdf - Google Диск</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://drive.google.com/file/d/1t8ZETcmoFz3847OajBNdKQLnquPMxuFT/view</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-09-09 16:05:17</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="urn:isbn:978-1-4503-5638-1">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dcterms:isPartOf>
+                   <bib:Series><dc:title>ICSE '18</dc:title></bib:Series>
+                </dcterms:isPartOf>
+                <dc:identifier>DOI 10.1145/3180155.3180201</dc:identifier>
+                <dc:identifier>ISBN 978-1-4503-5638-1</dc:identifier>
+                <dc:title>Proceedings of the 40th International Conference on Software Engineering</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Association for Computing Machinery</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>New York, NY, USA</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Meng</foaf:surname>
+                        <foaf:givenName>Na</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nagy</foaf:surname>
+                        <foaf:givenName>Stefan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yao</foaf:surname>
+                        <foaf:givenName>Danfeng (Daphne)</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhuang</foaf:surname>
+                        <foaf:givenName>Wenjie</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Argoty</foaf:surname>
+                        <foaf:givenName>Gustavo Arango</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_34"/>
+        <dc:title>Secure coding practices in Java: challenges and vulnerabilities</dc:title>
+        <dcterms:abstract>The Java platform and its third-party libraries provide useful features to facilitate secure coding. However, misusing them can cost developers time and effort, as well as introduce security vulnerabilities in software. We conducted an empirical study on StackOverflow posts, aiming to understand developers' concerns on Java secure coding, their programming obstacles, and insecure coding practices.We observed a wide adoption of the authentication and authorization features provided by Spring Security---a third-party framework designed to secure enterprise applications. We found that programming challenges are usually related to APIs or libraries, including the complicated cross-language data handling of cryptography APIs, and the complex Java-based or XML-based approaches to configure Spring Security. In addition, we reported multiple security vulnerabilities in the suggested code of accepted answers on the StackOverfow forum. The vulnerabilities included disabling the default protection against Cross-Site Request Forgery (CSRF) attacks, breaking SSL/TLS security through bypassing certificate validation, and using insecure cryptographic hash functions. Our findings reveal the insufficiency of secure coding assistance and documentation, as well as the huge gap between security theory and coding practices.</dcterms:abstract>
+        <dc:date>May 27, 2018</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/10.1145/3180155.3180201</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-09-09</dcterms:dateSubmitted>
+        <z:shortTitle>Secure coding practices in Java</z:shortTitle>
+        <z:libraryCatalog>ACM Digital Library</z:libraryCatalog>
+        <bib:pages>372–383</bib:pages>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_34">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/34/Meng et al. - 2018 - Secure coding practices in Java challenges and vulnerabilities.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/pdf/10.1145/3180155.3180201?download=true</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-09-09 16:06:36</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://dl.acm.org/doi/10.1145/3474553">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0360-0300"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhang</foaf:surname>
+                        <foaf:givenName>Bing</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Li</foaf:surname>
+                        <foaf:givenName>Jingyue</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ren</foaf:surname>
+                        <foaf:givenName>Jiadong</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Huang</foaf:surname>
+                        <foaf:givenName>Guoyan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_36"/>
+        <dc:title>Efficiency and Effectiveness of Web Application Vulnerability Detection Approaches: A Review</dc:title>
+        <dcterms:abstract>Most existing surveys and reviews on web application vulnerability detection (WAVD) approaches focus on comparing and summarizing the approaches’ technical details. Although some studies have analyzed the efficiency and effectiveness of specific methods, there is a lack of a comprehensive and systematic analysis of the efficiency and effectiveness of various WAVD approaches. We conducted a systematic literature review (SLR) of WAVD approaches and analyzed their efficiency and effectiveness. We identified 105 primary studies out of 775 WAVD articles published between January 2008 and June 2019. Our study identified 10 categories of artifacts analyzed by the WAVD approaches and 8 categories of WAVD meta-approaches for analyzing the artifacts. Our study’s results also summarized and compared the effectiveness and efficiency of different WAVD approaches on detecting specific categories of web application vulnerabilities and which web applications and test suites are used to evaluate the WAVD approaches. To our knowledge, this is the first SLR that focuses on summarizing the effectiveness and efficiencies of WAVD approaches. Our study results can help security engineers choose and compare WAVD tools and help researchers identify research gaps.</dcterms:abstract>
+        <dc:date>October 8, 2021</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://dl.acm.org/doi/10.1145/3474553</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-09-09 16:10:11</dcterms:dateSubmitted>
+        <z:shortTitle>Efficiency and Effectiveness of Web Application Vulnerability Detection Approaches</z:shortTitle>
+        <z:libraryCatalog>ACM Digital Library</z:libraryCatalog>
+        <bib:pages>190:1–190:35</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0360-0300">
+        <dc:identifier>DOI 10.1145/3474553</dc:identifier>
+        <prism:volume>54</prism:volume>
+        <dc:title>ACM Comput. Surv.</dc:title>
+        <dc:identifier>ISSN 0360-0300</dc:identifier>
+        <prism:number>9</prism:number>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_36">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/36/Zhang et al. - 2021 - Efficiency and Effectiveness of Web Application Vulnerability Detection Approaches A Review.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://dl.acm.org/doi/pdf/10.1145/3474553</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-09-09 16:10:14</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.nature.com/articles/s41598-023-48845-4">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2045-2322"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tadhani</foaf:surname>
+                        <foaf:givenName>Jaydeep R.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vekariya</foaf:surname>
+                        <foaf:givenName>Vipul</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sorathiya</foaf:surname>
+                        <foaf:givenName>Vishal</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Alshathri</foaf:surname>
+                        <foaf:givenName>Samah</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>El-Shafai</foaf:surname>
+                        <foaf:givenName>Walid</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_37"/>
+        <dc:title>Securing web applications against XSS and SQLi attacks using a novel deep learning approach</dc:title>
+        <dcterms:abstract>Several methods can be used to identify SQL injection attacks, including regular expression matching and MLbased models like Support Vector Machine, Naive Bayes, Random Forest, and Decision Tree. Regular expression matching is widely used among these methods due to its high accuracy rate and fast recognition speed. SQL injection attacks have been a consistent focus of network security research and are ranked as the top risk to network applications by the Open Web Application Security Project (OWASP)15. Various methods have been proposed to detect SQL injection in recent years by examining the threats, attack types and modes of attack.</dcterms:abstract>
+        <dc:date>2024-01-20</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.nature.com/articles/s41598-023-48845-4</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-09-09 16:12:19</dcterms:dateSubmitted>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <bib:pages>1803</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2045-2322">
+        <dc:identifier>DOI 10.1038/s41598-023-48845-4</dc:identifier>
+        <prism:volume>14</prism:volume>
+        <dc:title>Scientific Reports</dc:title>
+        <dc:identifier>ISSN 2045-2322</dc:identifier>
+        <prism:number>1</prism:number>
+        <dcterms:alternative>Sci Rep</dcterms:alternative>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_37">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/37/Tadhani et al. - 2024 - Securing web applications against XSS and SQLi attacks using a novel deep learning approach.pdf"/>
+        <dc:title>PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.nature.com/articles/s41598-023-48845-4.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-09-09 16:12:16</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="urn:isbn:979-8-4007-0636-3">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dcterms:isPartOf>
+                   <bib:Series><dc:title>CCS '24</dc:title></bib:Series>
+                </dcterms:isPartOf>
+                <dc:identifier>DOI 10.1145/3658644.3690361</dc:identifier>
+                <dc:identifier>ISBN 979-8-4007-0636-3</dc:identifier>
+                <dc:title>Proceedings of the 2024 on ACM SIGSAC Conference on Computer and Communications Security</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Association for Computing Machinery</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>New York, NY, USA</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Liang</foaf:surname>
+                        <foaf:givenName>Yuejia</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chen</foaf:surname>
+                        <foaf:givenName>Jianjun</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Guo</foaf:surname>
+                        <foaf:givenName>Run</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Shen</foaf:surname>
+                        <foaf:givenName>Kaiwen</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jiang</foaf:surname>
+                        <foaf:givenName>Hui</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hou</foaf:surname>
+                        <foaf:givenName>Man</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yu</foaf:surname>
+                        <foaf:givenName>Yue</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Duan</foaf:surname>
+                        <foaf:givenName>Haixin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_40"/>
+        <dc:title>Internet's Invisible Enemy: Detecting and Measuring Web Cache Poisoning in the Wild</dc:title>
+        <dcterms:abstract>Web cache poisoning (WCP) has posed significant threats to Internet security by causing the cache server to deliver malicious responses to innocent users. This results in widespread denial of access to website resources and potential injection of harmful payloads. However, prior works on WCP vulnerability have been fragmented and conducted in a case-by-case form, lacking a systematic analysis of the threat landscape. In this paper, we fill this research gap by conducting a systematic evaluation of WCP vulnerabilities at scale. We propose HCache, a novel testing methodology to facilitates the widespread identification of WCP vulnerabilities. We evaluated our methodology against Tranco Top 1000 domains and their subdomains, and found that over 1,000 websites across 172 domains, representing 17% of the evaluated domains, are vulnerable to WCP. In particular, we have identified 7 new attack vectors stemming from previously unexplored caching headers. We have responsibly disclosed the vulnerabilities to the affected websites and received acknowledgements and bug bounties from world-famous companies, such as Alibaba, Adobe, Huawei, and Microsoft.</dcterms:abstract>
+        <dc:date>December 9, 2024</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/10.1145/3658644.3690361</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-09-09</dcterms:dateSubmitted>
+        <z:shortTitle>Internet's Invisible Enemy</z:shortTitle>
+        <z:libraryCatalog>ACM Digital Library</z:libraryCatalog>
+        <bib:pages>452–466</bib:pages>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_40">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/40/Liang et al. - 2024 - Internet's Invisible Enemy Detecting and Measuring Web Cache Poisoning in the Wild.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/pdf/10.1145/3658644.3690361</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-09-09 16:14:14</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Collection rdf:about="#collection_2">
+        <dc:title>1_Vulnerabilities</dc:title>
+        <dcterms:hasPart rdf:resource="urn:isbn:978-1-5386-6947-1"/>
+        <dcterms:hasPart rdf:resource="#item_9"/>
+        <dcterms:hasPart rdf:resource="urn:isbn:978-1-4799-8676-7"/>
+        <dcterms:hasPart rdf:resource="https://dl.acm.org/doi/10.1145/3474553"/>
+    </z:Collection>
+    <z:Collection rdf:about="#collection_5">
+        <dc:title>2_Penetration_Testing_and_Attacks</dc:title>
+        <dcterms:hasPart rdf:resource="https://www.ijitee.org/portfolio-item/J91730881019/"/>
+        <dcterms:hasPart rdf:resource="https://www.iieta.org/journals/rces/paper/10.18280/rces.090101"/>
+        <dcterms:hasPart rdf:resource="urn:isbn:979-8-3315-1018-3"/>
+        <dcterms:hasPart rdf:resource="#item_22"/>
+        <dcterms:hasPart rdf:resource="https://drive.google.com/file/d/1t8ZETcmoFz3847OajBNdKQLnquPMxuFT/view"/>
+        <dcterms:hasPart rdf:resource="urn:isbn:979-8-4007-0636-3"/>
+    </z:Collection>
+    <z:Collection rdf:about="#collection_4">
+        <dc:title>3_Secure_Development</dc:title>
+        <dcterms:hasPart rdf:resource="urn:isbn:978-1-59593-352-2"/>
+        <dcterms:hasPart rdf:resource="https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-95.pdf"/>
+        <dcterms:hasPart rdf:resource="#item_28"/>
+        <dcterms:hasPart rdf:resource="#item_30"/>
+        <dcterms:hasPart rdf:resource="urn:isbn:978-1-4503-5638-1"/>
+        <dcterms:hasPart rdf:resource="https://www.nature.com/articles/s41598-023-48845-4"/>
+    </z:Collection>
+</rdf:RDF>
