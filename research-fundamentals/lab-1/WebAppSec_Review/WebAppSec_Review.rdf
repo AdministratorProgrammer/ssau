@@ -61,7 +61,11 @@
                 </rdf:li>
             </rdf:Seq>
         </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_108"/>
         <link:link rdf:resource="#item_6"/>
+        <dc:subject>secure web application</dc:subject>
+        <dc:subject>architecture</dc:subject>
+        <dc:subject>securing data</dc:subject>
         <dc:title>Vulnerabilities and Security of Web Applications</dc:title>
         <dcterms:abstract>Web applications are active websites which are composition of server based programs serving user interaction and various other functionalities. Web Server security is thus an important aspect for any organisation having web server connectivity with the internet and also to ensure customers using their websites, for a secure online portal.</dcterms:abstract>
         <dc:date>12/2018</dc:date>
@@ -80,6 +84,12 @@
             </bib:Conference>
         </bib:presentedAt>
     </rdf:Description>
+    <bib:Memo rdf:about="#item_108">
+        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(249, 250, 251);&quot;&gt;&lt;span style=&quot;background-color: rgb(21, 21, 23);&quot;&gt;Это, фактически, бзорная статья, посвящённая основным уязвимостям веб-приложений (невалидированный ввод, неправильная обработка ошибок) и методам защиты. &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(249, 250, 251);&quot;&gt;&lt;span style=&quot;background-color: rgb(21, 21, 23);&quot;&gt;Рассматривается безопасности в разных областях: академической среде, электронной коммерции, базах данных, операционных системах и мобильных приложениях.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(249, 250, 251);&quot;&gt;&lt;span style=&quot;background-color: rgb(21, 21, 23);&quot;&gt;Приводятся рекомендации: проверка входных данных, ограничение доступа, шифрование, использование firewall, аудит безопасности.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
     <z:Attachment rdf:about="#item_6">
         <z:itemType>attachment</z:itemType>
         <z:path rdf:resource="files/6/Yadav et al. - 2018 - Vulnerabilities and Security of Web Applications.pdf"/>
@@ -126,12 +136,26 @@
                 </rdf:li>
             </rdf:Seq>
         </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_107"/>
         <link:link rdf:resource="#item_8"/>
+        <dc:subject>vulnerabilities</dc:subject>
+        <dc:subject>sql injection</dc:subject>
+        <dc:subject>xss</dc:subject>
+        <dc:subject>vulnerability detection</dc:subject>
         <dc:title>Toward Automated Detection of Logic Vulnerabilities in Web Applications</dc:title>
         <dcterms:abstract>Web applications are the most common way to make services and data available on the Internet. Unfortunately, with the increase in the number and complexity of these applications, there has also been an increase in the number and complexity of vulnerabilities. Current techniques to identify security problems in web applications have mostly focused on input validation ﬂaws, such as crosssite scripting and SQL injection, with much less attention devoted to application logic vulnerabilities.</dcterms:abstract>
         <z:language>en</z:language>
         <z:libraryCatalog>Zotero</z:libraryCatalog>
     </bib:Article>
+    <bib:Memo rdf:about="#item_107">
+        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(249, 250, 251);&quot;&gt;&lt;span style=&quot;background-color: rgb(21, 21, 23);&quot;&gt;Исследователи сделали первый шаг к автоматическому поиску логических уязвимостей в веб-приложениях. &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(249, 250, 251);&quot;&gt;&lt;span style=&quot;background-color: rgb(21, 21, 23);&quot;&gt;Сначала они запускают приложение как обычный пользователь и с помощью инструмента Daikon собирают “правила”, которые обычно соблюдаются (т.е. инфарианты). &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(249, 250, 251);&quot;&gt;&lt;span style=&quot;background-color: rgb(21, 21, 23);&quot;&gt;Потом с помощью Java PathFinder они символьно проверяют разные пути выполнения программы: есть ли такой путь, где эти правила нарушаются. Чтобы не отвлекаться на случайные или ложные правила, они отсеивают их двумя способами:&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(249, 250, 251);&quot;&gt;&lt;span style=&quot;background-color: rgb(21, 21, 23);&quot;&gt;1) смотрят, есть ли в коде проверки, которые поддерживают это правило&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(249, 250, 251);&quot;&gt;&lt;span style=&quot;background-color: rgb(21, 21, 23);&quot;&gt;2) проверяют, связывает ли правило данные сессии и базы данных. На основе этого подхода был создан инструмент Waler, который нашёл ранее неизвестные логические уязвимости в реальных приложениях.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(249, 250, 251);&quot;&gt;&lt;span style=&quot;background-color: rgb(21, 21, 23);&quot;&gt;Пример: обход авторизации или возможность редактировать чужие сообщения.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
     <z:Attachment rdf:about="#item_8">
         <z:itemType>attachment</z:itemType>
         <z:path rdf:resource="files/8/Felmetsger et al. - Toward Automated Detection of Logic Vulnerabilities in Web Applications.pdf"/>
@@ -204,7 +228,11 @@
                 </rdf:li>
             </rdf:Seq>
         </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_110"/>
         <link:link rdf:resource="#item_10"/>
+        <dc:subject>vulnerabilities</dc:subject>
+        <dc:subject>web applications</dc:subject>
+        <dc:subject>owasp</dc:subject>
         <dc:title>Web application security vulnerabilities detection approaches: A systematic mapping study</dc:title>
         <dcterms:abstract>Number of security vulnerabilities in web application has grown with the tremendous growth of web application in last two decades. As the domain of Web Applications is maturing, large number of empirical studies has been reported in web applications to address the solution of vulnerable web application. However, before advancing towards finding new approaches of web applications security vulnerability detection, there is a need to analyze and synthesize existing evidence based studies in web applications area. To do this, we have planned to conduct a systematic mapping study to view and report the state-of-the-art of empirical work in existing research of web applications. In this paper, we aimed at providing a description of mapping study for synthesizing the reported empirical research in the area of web applications security vulnerabilities detection approaches. The proposed solutions are mapped against: (1) the software development stages for which the solution has been proposed and (2) the web application vulnerabilities mapping according to OWASP Top 10 security vulnerabilities. To do this, existing literature has been surveyed using a systematic mapping study by phrasing two research questions. In the mapping study, a total of 41 studies dating from 1994 to 2014 were evaluated and mapped against the aforementioned categories.</dcterms:abstract>
         <dc:date>6/2015</dc:date>
@@ -224,6 +252,14 @@
             </bib:Conference>
         </bib:presentedAt>
     </rdf:Description>
+    <bib:Memo rdf:about="#item_110">
+        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(249, 250, 251);&quot;&gt;&lt;span style=&quot;background-color: rgb(21, 21, 23);&quot;&gt;В статье рассматривается уязвимость “Недостаток контроля доступа” (A01 из OWASP Top 10).&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(249, 250, 251);&quot;&gt;&lt;span style=&quot;background-color: rgb(21, 21, 23);&quot;&gt;Анализируются причины её возникновения: слабые пароли, неправильная настройка списков контроля доступа, недостаточные разрешения, отсутствие аудита и многофакторной аутентификации. &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(249, 250, 251);&quot;&gt;&lt;span style=&quot;background-color: rgb(21, 21, 23);&quot;&gt;Приведены примеры уязвимого кода на Java и Python, где отсутствует проверка прав пользователя. Предложены меры защиты: регулярный аудит, использование инструментов Netsparker, Burp Suite, Metasploit, внедрение MFA и шифрования.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;MFA &amp;nbsp;- многофакторная аутентификация. Это метод защиты данных, при котором для входа в систему или подтверждения личности нужно указать два или более разных фактора (биометрия, код из смс и т.п.).&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
     <z:Attachment rdf:about="#item_10">
         <z:itemType>attachment</z:itemType>
         <z:path rdf:resource="files/10/Rafique et al. - 2015 - Web application security vulnerabilities detection approaches A systematic mapping study.pdf"/>
@@ -299,7 +335,12 @@
                 </rdf:li>
             </rdf:Seq>
         </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_99"/>
         <link:link rdf:resource="#item_13"/>
+        <dc:subject>penetration testing</dc:subject>
+        <dc:subject>scanning tools</dc:subject>
+        <dc:subject>sql injection</dc:subject>
+        <dc:subject>reflected xss</dc:subject>
         <dc:title>Web Application Penetration Testing</dc:title>
         <dcterms:abstract>This paper describes the in-depth technical approach to perform manual penetration test in web applications for testing the integrity and security of the application and also serves as a guide to test OWASP top 10 security vulnerabilities. The paper is more focused on providing detailed knowledge about manual web application penetration testing methodologies in order to secure them from malicious black hat hackers.</dcterms:abstract>
         <dc:date>2019-08-30</dc:date>
@@ -321,6 +362,13 @@
         <prism:number>10</prism:number>
         <dcterms:alternative>IJITEE</dcterms:alternative>
     </bib:Journal>
+    <bib:Memo rdf:about="#item_99">
+        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(249, 250, 251);&quot;&gt;&lt;span style=&quot;background-color: rgb(21, 21, 23);&quot;&gt;Подробно разобраны SQL-инъекции (union-based, error-based, blind)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(249, 250, 251);&quot;&gt;&lt;span style=&quot;background-color: rgb(21, 21, 23);&quot;&gt;XSS атаки (reflected, stored, DOM-based, mXSS), CSRF, CORS, IDOR, RCE.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(249, 250, 251);&quot;&gt;&lt;span style=&quot;background-color: rgb(21, 21, 23);&quot;&gt;Приведены примеры полезных нагрузок и методов защиты. &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(249, 250, 251);&quot;&gt;&lt;span style=&quot;background-color: rgb(21, 21, 23);&quot;&gt;Упоминается важность ручного тестирования и понимания логики приложения.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
     <z:Attachment rdf:about="#item_13">
         <z:itemType>attachment</z:itemType>
         <z:path rdf:resource="files/13/Assistant professor, Department of IT, Sri Krishna College of Engineering and Technology. et al. - 2019 - Web Application Penetration Testing.pdf"/>
@@ -353,7 +401,11 @@
                 </rdf:li>
             </rdf:Seq>
         </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_49"/>
         <link:link rdf:resource="#item_15"/>
+        <dc:subject>penetration testing</dc:subject>
+        <dc:subject>vulnerability assessment</dc:subject>
+        <dc:subject>burp suite</dc:subject>
         <dc:title>A Review on Web Application Vulnerability Assessment and Penetration Testing</dc:title>
         <dc:date>2022-3-31</dc:date>
         <dc:identifier>
@@ -374,6 +426,13 @@
         <prism:number>1</prism:number>
         <dcterms:alternative>RCES</dcterms:alternative>
     </bib:Journal>
+    <bib:Memo rdf:about="#item_49">
+        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;Существуют 2-е основных стратегии тестирования веб-приложения:&lt;br&gt;1) black box testing&lt;br&gt;2) grey box testing&lt;/p&gt;
+&lt;p&gt;Black box testing (тестирование чёрной коробки) - это техника тестирования приложения, при которой тестировщик (атакующий) не знает внутреннего устройства системы.&lt;/p&gt;
+&lt;p&gt;Grey box testing - техника тестирования приложения, при которой тестировщик имеет некоторые сведения о внутреннем устройстве системы, полученные от владельца или разработчика.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
     <z:Attachment rdf:about="#item_15">
         <z:itemType>attachment</z:itemType>
         <z:path rdf:resource="files/15/Ravindran and Potukuchi - 2022 - A Review on Web Application Vulnerability Assessment and Penetration Testing.pdf"/>
@@ -428,7 +487,12 @@
                 </rdf:li>
             </rdf:Seq>
         </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_109"/>
         <link:link rdf:resource="#item_19"/>
+        <dc:subject>web applications</dc:subject>
+        <dc:subject>penetration testing</dc:subject>
+        <dc:subject>owasp</dc:subject>
+        <dc:subject>exploit</dc:subject>
         <dc:title>Web Application Penetration Testing with Artificial Intelligence: A Systematic Review</dc:title>
         <dcterms:abstract>ÐPenetration testing is an intricate activity, yet vital for the security of web applications and the protection of user data. Due to its time-consuming nature, recent developments have emphasized the use of artificial intelligence to enhance efficiency, shorten testing times, and substantially improve penetration testing results. By combining artificial intelligence with conventional penetration testing techniques, researchers aim to improve the processes, providing organizations with the means to create stronger web applications. This paper presents a thorough review of research conducted between 2013 and 2024 on the application of artificial intelligence in web application penetration testing. We highlight advancements and challenges in employing learningbased methods to enhance penetration testing, providing a comprehensive overview of the current state and future directions in the field. Our results show that leveraging artificial intelligence has proven to be more efficient than traditional approaches, but they still face significant challenges.</dcterms:abstract>
         <dc:date>2024-10-24</dc:date>
@@ -449,6 +513,12 @@
             </bib:Conference>
         </bib:presentedAt>
     </rdf:Description>
+    <bib:Memo rdf:about="#item_109">
+        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(249, 250, 251);&quot;&gt;&lt;span style=&quot;background-color: rgb(21, 21, 23);&quot;&gt;Обзор 49 научных работ (с 2013 по 2024 гг) по применению искусственного интеллекта в пентесте веб-приложений. Рассматриваются методы ML, NLP, RL.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(249, 250, 251);&quot;&gt;&lt;span style=&quot;background-color: rgb(21, 21, 23);&quot;&gt;Большинство исследований сосредоточены на этапах сканирования и эксплуатации, чаще всего для обнаружения SQLi и XSS. Выявлены проблемы: нехватка размеченных датасетов, ограниченное применение RL и гибридных методов, слабая воспроизводимость.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(249, 250, 251);&quot;&gt;&lt;span style=&quot;background-color: rgb(21, 21, 23);&quot;&gt;Перспективные направления: большие языковые модели (LLM), adversarial-атаки, защита данных.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
     <z:Attachment rdf:about="#item_19">
         <z:itemType>attachment</z:itemType>
         <z:path rdf:resource="files/19/Sánchez et al. - 2024 - Web Application Penetration Testing with Artificial Intelligence A Systematic Review.pdf"/>
@@ -459,52 +529,6 @@
             </dcterms:URI>
         </dc:identifier>
         <dcterms:dateSubmitted>2026-09-09 15:52:41</dcterms:dateSubmitted>
-        <z:linkMode>1</z:linkMode>
-        <link:type>application/pdf</link:type>
-    </z:Attachment>
-    <bib:Article rdf:about="#item_22">
-        <z:itemType>journalArticle</z:itemType>
-        <dcterms:isPartOf>
-           <bib:Journal></bib:Journal>
-        </dcterms:isPartOf>
-        <bib:authors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Vats</foaf:surname>
-                        <foaf:givenName>Prashant</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Mandot</foaf:surname>
-                        <foaf:givenName>Manju</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Gosain</foaf:surname>
-                        <foaf:givenName>Anjana</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:authors>
-        <link:link rdf:resource="#item_21"/>
-        <dc:title>A Comprehensive Literature Review of Penetration Testing &amp; Its Applications</dc:title>
-        <dcterms:abstract>The PEN testing allows a PEN tester to check the functional aspects of a system that how much a system is vulnerable to the Network security &amp; intrusion attacks &amp; to see its defense mechanisms to counterpart these attacks. In this research paper we have conducted a literature review on the work done by the various researchers in the area of Penetration (PEN) testing. We have tried to review the various aspects related to the PEN testing. We have also studied the various tools used for PEN testing in terms of their utility, technical specifications, date of their release, Platform compatibility etc. various aspects related to the PEN testing. We have also studied the various tools used for PEN testing in terms of their utility, technical specifications, date of their release, Platform compatibility etc.</dcterms:abstract>
-        <z:language>en</z:language>
-        <z:libraryCatalog>Zotero</z:libraryCatalog>
-    </bib:Article>
-    <z:Attachment rdf:about="#item_21">
-        <z:itemType>attachment</z:itemType>
-        <z:path rdf:resource="files/21/Vats et al. - A Comprehensive Literature Review of Penetration Testing &amp; Its Applications.pdf"/>
-        <dc:title>PDF</dc:title>
-        <dc:identifier>
-            <dcterms:URI>
-                <rdf:value>https://www.researchgate.net/profile/Prashant-Vats/publication/336937253_A_Comprehensive_Literature_Review_of_Penetration_Testing_Its_Applications/links/65e76d5fadc608480a023484/A-Comprehensive-Literature-Review-of-Penetration-Testing-Its-Applications.pdf</rdf:value>
-            </dcterms:URI>
-        </dc:identifier>
-        <dcterms:dateSubmitted>2026-09-09 15:54:29</dcterms:dateSubmitted>
         <z:linkMode>1</z:linkMode>
         <link:type>application/pdf</link:type>
     </z:Attachment>
@@ -564,7 +588,14 @@
                 </rdf:li>
             </rdf:Seq>
         </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_100"/>
         <link:link rdf:resource="#item_24"/>
+        <dc:subject>web applications</dc:subject>
+        <dc:subject>use case model</dc:subject>
+        <dc:subject>security policy</dc:subject>
+        <dc:subject>secure web application</dc:subject>
+        <dc:subject>architecture</dc:subject>
+        <dc:subject>development methods</dc:subject>
         <dc:title>Agile development of secure web applications</dc:title>
         <dcterms:abstract>A secure system is one that is protected against specific undesired outcomes.Delivering a secure system, and particularly a secure web application, is not easy.Integrating general-purpose information systems development methods withsecurity development activities could be a useful means to surmount thesedifficulties Agile processes, such as Extreme Programming, are of increasing interest insoftware development. Most significantly for web applications, agile processesencourage and embrace requirements change, which is a desirable characteristicfor web application development.In this paper, we present an agile process to deliver secure web applications.The contribution of the research is not the development of a new method or processthat addresses security concerns. Rather, we investigate general-purpose informationsystemdevelopment methods (e.g., Feature-Driven Development (FDD)) and mature security methods, namely risk analysis, and integrate them to address the development of secure web applications. The key features of our approach are(1) a process capable of dealing with the key challenges of web applicationsdevelopment, namely decreasing life-cycle times and frequently changing requirements; and (2) an iterative approach to risk analysis that integrates security design throughout the development process.</dcterms:abstract>
         <dc:date>July 11, 2006</dc:date>
@@ -577,6 +608,10 @@
         <z:libraryCatalog>ACM Digital Library</z:libraryCatalog>
         <bib:pages>305–312</bib:pages>
     </rdf:Description>
+    <bib:Memo rdf:about="#item_100">
+        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(249, 250, 251);&quot;&gt;&lt;span style=&quot;background-color: rgb(21, 21, 23);&quot;&gt;Авторы предлагают agile-процесс для разработки безопасных веб-приложений, основанный на расширении подхода Feature-Driven Development (FDD) за счёт интеграции итеративного анализа рисков. Ключевая идея - встроить безопасность во все фазы разработки, начиная с определения политики безопасности и заканчивая реализацией. На каждом шаге итерации проводится анализ рисков для всей системы (включая уже существующие функции), что позволяет выявлять новые уязвимости и своевременно их исправлять.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
     <z:Attachment rdf:about="#item_24">
         <z:itemType>attachment</z:itemType>
         <z:path rdf:resource="files/24/Ge et al. - 2006 - Agile development of secure web applications.pdf"/>
@@ -624,7 +659,12 @@
                 </rdf:li>
             </rdf:Seq>
         </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_104"/>
         <link:link rdf:resource="#item_25"/>
+        <dc:subject>web service</dc:subject>
+        <dc:subject>authorization</dc:subject>
+        <dc:subject>protecting resources</dc:subject>
+        <dc:subject>osi</dc:subject>
         <dc:title>Guide to secure web services</dc:title>
         <dc:date>2007</dc:date>
         <dc:identifier>DOI 10.6028/NIST.SP.800-95</dc:identifier>
@@ -640,6 +680,12 @@
         <bib:pages>NIST SP 800-95</bib:pages>
         <prism:number>NIST SP 800-95</prism:number>
     </bib:Report>
+    <bib:Memo rdf:about="#item_104">
+        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(249, 250, 251);&quot;&gt;&lt;span style=&quot;background-color: rgb(21, 21, 23);&quot;&gt;Описываются угрозы, стандарты и технологии защиты: WS-Security, XML Encryption, XML Signature, SAML, XACML, WS-Policy, WS-Trust, WS-Federation и т.п. Рассматриваются аспекты аутентификации, авторизации, конфиденциальности, целостности, неотказуемости и доступности.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(249, 250, 251);&quot;&gt;&lt;span style=&quot;background-color: rgb(21, 21, 23);&quot;&gt;Особое внимание уделено управлению идентификацией, федерации доверия, защите реестров, веб-порталам и интеграции унаследованных приложений. Приводится описание типичных атак (SQL-инъекции, XSS, DoS и т.д.) и методов противодействия.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(249, 250, 251);&quot;&gt;&lt;span style=&quot;background-color: rgb(21, 21, 23);&quot;&gt;По факту, данная статья обобщает лучшие практики и стандарты для построения безопасных веб-сервисов.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
     <z:Attachment rdf:about="#item_25">
         <z:itemType>attachment</z:itemType>
         <z:path rdf:resource="files/25/Singhal et al. - 2007 - Guide to secure web services.pdf"/>
@@ -674,12 +720,22 @@
                 </rdf:li>
             </rdf:Seq>
         </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_102"/>
         <link:link rdf:resource="#item_27"/>
+        <dc:subject>secure web application</dc:subject>
+        <dc:subject>authentication</dc:subject>
+        <dc:subject>architecture</dc:subject>
+        <dc:subject>security checklist</dc:subject>
         <dc:title>Developing Secure Web Applications</dc:title>
         <dc:date>2002</dc:date>
         <z:language>en</z:language>
         <z:libraryCatalog>Zotero</z:libraryCatalog>
     </bib:Article>
+    <bib:Memo rdf:about="#item_102">
+        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(249, 250, 251);&quot;&gt;&lt;span style=&quot;background-color: rgb(21, 21, 23);&quot;&gt;Основные принципы: никогда не доверять данным с клиента, проверять все входные параметры на сервере, избегать свободного ввода, применять POST вместо GET, шифровать и подписывать параметры, управлять сессиями (аутентификация, таймауты, завершение), защищать точки входа, шифровать трафик и т.п.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
     <z:Attachment rdf:about="#item_27">
         <z:itemType>attachment</z:itemType>
         <z:path rdf:resource="files/27/Bar-Gad and Klein - 2002 - Developing Secure Web Applications.pdf"/>
@@ -732,13 +788,25 @@
                 </rdf:li>
             </rdf:Seq>
         </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_101"/>
         <link:link rdf:resource="#item_29"/>
+        <dc:subject>sql injection</dc:subject>
+        <dc:subject>secure web application</dc:subject>
+        <dc:subject>architecture</dc:subject>
         <dc:title>Agile Development of Secure Web-Based Applications</dc:title>
         <dcterms:abstract>This article outlines a four-point strategy for the development of secure Web-based applications within an agile development framework and introduces strategies to mitigate security risks commonly present in Web-based applications. The proposed strategy includes the representation of security requirements as test cases supported by the open source tool FIT, the deployment of a highly testable architecture allowing for security testing of the application at all levels, the outlining of an extensive security testing strategy supported by the open source unit-testing framework HTTPUnit, and the introduction of the novel technique of security refactoring that transforms insecure working code into a functionally equivalent secure code. Today, many Web-based applications are not secure, and limited literature exists concerning the use of agile methods within this domain. It is the intention of this article to further discussions and research regarding the use of an agile methodology for the development of secure Web-based applications.</dcterms:abstract>
         <dc:date>2006</dc:date>
         <z:language>en</z:language>
         <z:libraryCatalog>Zotero</z:libraryCatalog>
     </bib:Article>
+    <bib:Memo rdf:about="#item_101">
+        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(249, 250, 251);&quot;&gt;&lt;span style=&quot;background-color: rgb(21, 21, 23);&quot;&gt;Предлагается стратегия для разработки безопасных веб-приложений в agile-фреймворке:&lt;br&gt;&lt;br&gt;1) представление требований безопасности в виде тест-кейсов с использованием инструмента FIT&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(249, 250, 251);&quot;&gt;&lt;span style=&quot;background-color: rgb(21, 21, 23);&quot;&gt;2) проектирование “высокотестируемой” архитектуры, позволяющей проводить тестирование безопасности на всех уровнях&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(249, 250, 251);&quot;&gt;&lt;span style=&quot;background-color: rgb(21, 21, 23);&quot;&gt;3) автоматизированное тестирование безопасности с помощью HTTPUnit (для SQL-инъекций, XSS, модификации с cookie и т.п.)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(249, 250, 251);&quot;&gt;&lt;span style=&quot;background-color: rgb(21, 21, 23);&quot;&gt;4) технику “security refactoring” - преобразование небезопасного рабочего кода в такой же по функционалу, но безопасный код.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(249, 250, 251);&quot;&gt;&lt;span style=&quot;background-color: rgb(21, 21, 23);&quot;&gt;Приводятся примеры для типичных веб-уязвимостей.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
     <z:Attachment rdf:about="#item_29">
         <z:itemType>attachment</z:itemType>
         <z:path rdf:resource="files/29/Tappenden et al. - 2006 - Agile Development of Secure Web-Based Applications.pdf"/>
@@ -751,33 +819,6 @@
         <dcterms:dateSubmitted>2026-09-09 15:58:43</dcterms:dateSubmitted>
         <z:linkMode>1</z:linkMode>
         <link:type>application/pdf</link:type>
-    </z:Attachment>
-    <bib:Document rdf:about="https://drive.google.com/file/d/1t8ZETcmoFz3847OajBNdKQLnquPMxuFT/view">
-        <z:itemType>webpage</z:itemType>
-        <dcterms:isPartOf>
-           <z:Website></z:Website>
-        </dcterms:isPartOf>
-        <link:link rdf:resource="#item_32"/>
-        <dc:title>DDoS_Attacks_at_the_Application_Layer_Challenges_and_Research_Perspectives_for_Safeguarding_Web_Applications.pdf - Google Диск</dc:title>
-        <dc:identifier>
-            <dcterms:URI>
-                <rdf:value>https://drive.google.com/file/d/1t8ZETcmoFz3847OajBNdKQLnquPMxuFT/view</rdf:value>
-            </dcterms:URI>
-        </dc:identifier>
-        <dcterms:dateSubmitted>2026-09-09 16:04:59</dcterms:dateSubmitted>
-    </bib:Document>
-    <z:Attachment rdf:about="#item_32">
-        <z:itemType>attachment</z:itemType>
-        <z:path rdf:resource="files/32/view.html"/>
-        <dc:title>DDoS_Attacks_at_the_Application_Layer_Challenges_and_Research_Perspectives_for_Safeguarding_Web_Applications.pdf - Google Диск</dc:title>
-        <dc:identifier>
-            <dcterms:URI>
-                <rdf:value>https://drive.google.com/file/d/1t8ZETcmoFz3847OajBNdKQLnquPMxuFT/view</rdf:value>
-            </dcterms:URI>
-        </dc:identifier>
-        <dcterms:dateSubmitted>2026-09-09 16:05:17</dcterms:dateSubmitted>
-        <z:linkMode>1</z:linkMode>
-        <link:type>text/html</link:type>
     </z:Attachment>
     <rdf:Description rdf:about="urn:isbn:978-1-4503-5638-1">
         <z:itemType>conferencePaper</z:itemType>
@@ -835,7 +876,12 @@
                 </rdf:li>
             </rdf:Seq>
         </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_105"/>
         <link:link rdf:resource="#item_34"/>
+        <dc:subject>vulnerabilities</dc:subject>
+        <dc:subject>authentication</dc:subject>
+        <dc:subject>java</dc:subject>
+        <dc:subject>csrf</dc:subject>
         <dc:title>Secure coding practices in Java: challenges and vulnerabilities</dc:title>
         <dcterms:abstract>The Java platform and its third-party libraries provide useful features to facilitate secure coding. However, misusing them can cost developers time and effort, as well as introduce security vulnerabilities in software. We conducted an empirical study on StackOverflow posts, aiming to understand developers' concerns on Java secure coding, their programming obstacles, and insecure coding practices.We observed a wide adoption of the authentication and authorization features provided by Spring Security---a third-party framework designed to secure enterprise applications. We found that programming challenges are usually related to APIs or libraries, including the complicated cross-language data handling of cryptography APIs, and the complex Java-based or XML-based approaches to configure Spring Security. In addition, we reported multiple security vulnerabilities in the suggested code of accepted answers on the StackOverfow forum. The vulnerabilities included disabling the default protection against Cross-Site Request Forgery (CSRF) attacks, breaking SSL/TLS security through bypassing certificate validation, and using insecure cryptographic hash functions. Our findings reveal the insufficiency of secure coding assistance and documentation, as well as the huge gap between security theory and coding practices.</dcterms:abstract>
         <dc:date>May 27, 2018</dc:date>
@@ -849,6 +895,13 @@
         <z:libraryCatalog>ACM Digital Library</z:libraryCatalog>
         <bib:pages>372–383</bib:pages>
     </rdf:Description>
+    <bib:Memo rdf:about="#item_105">
+        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(249, 250, 251);&quot;&gt;&lt;span style=&quot;background-color: rgb(21, 21, 23);&quot;&gt;Статья является исследованием 503-х постов на StackOverflow, посвящённых безопасному программированию на Java.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(249, 250, 251);&quot;&gt;&lt;span style=&quot;background-color: rgb(21, 21, 23);&quot;&gt;Авторы анализируют проблемы разработчиков, связанные с использованием библиотек (особенно Spring Security, криптографии, SSL/TLS) и выявляют уязвимости в рекомендованном коде принятых ответов.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(249, 250, 251);&quot;&gt;&lt;span style=&quot;background-color: rgb(21, 21, 23);&quot;&gt;Обнаружены опасные практики: отключение CSRF-защиты, доверие всем SSL-сертификатам, использование слабых хеш-функций (MD5, SHA-1).&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(249, 250, 251);&quot;&gt;&lt;span style=&quot;background-color: rgb(21, 21, 23);&quot;&gt;Таким образом, статья показывает, что социальные факторы (репутация, голоса) могут способствовать распространению небезопасных решений.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
     <z:Attachment rdf:about="#item_34">
         <z:itemType>attachment</z:itemType>
         <z:path rdf:resource="files/34/Meng et al. - 2018 - Secure coding practices in Java challenges and vulnerabilities.pdf"/>
@@ -893,7 +946,11 @@
                 </rdf:li>
             </rdf:Seq>
         </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_103"/>
         <link:link rdf:resource="#item_36"/>
+        <dc:subject>vulnerabilities</dc:subject>
+        <dc:subject>web applications</dc:subject>
+        <dc:subject>vulnerability detection</dc:subject>
         <dc:title>Efficiency and Effectiveness of Web Application Vulnerability Detection Approaches: A Review</dc:title>
         <dcterms:abstract>Most existing surveys and reviews on web application vulnerability detection (WAVD) approaches focus on comparing and summarizing the approaches’ technical details. Although some studies have analyzed the efficiency and effectiveness of specific methods, there is a lack of a comprehensive and systematic analysis of the efficiency and effectiveness of various WAVD approaches. We conducted a systematic literature review (SLR) of WAVD approaches and analyzed their efficiency and effectiveness. We identified 105 primary studies out of 775 WAVD articles published between January 2008 and June 2019. Our study identified 10 categories of artifacts analyzed by the WAVD approaches and 8 categories of WAVD meta-approaches for analyzing the artifacts. Our study’s results also summarized and compared the effectiveness and efficiency of different WAVD approaches on detecting specific categories of web application vulnerabilities and which web applications and test suites are used to evaluate the WAVD approaches. To our knowledge, this is the first SLR that focuses on summarizing the effectiveness and efficiencies of WAVD approaches. Our study results can help security engineers choose and compare WAVD tools and help researchers identify research gaps.</dcterms:abstract>
         <dc:date>October 8, 2021</dc:date>
@@ -914,6 +971,11 @@
         <dc:identifier>ISSN 0360-0300</dc:identifier>
         <prism:number>9</prism:number>
     </bib:Journal>
+    <bib:Memo rdf:about="#item_103">
+        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(249, 250, 251);&quot;&gt;&lt;span style=&quot;background-color: rgb(21, 21, 23);&quot;&gt;Это обзор литературы, в которой говориться об эффективности и производительности подходов к обнаружению уязвимостей веб-приложений (в основном для инъекций SQLi и XSS).&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(249, 250, 251);&quot;&gt;&lt;span style=&quot;background-color: rgb(21, 21, 23);&quot;&gt;Выводы: большинство работ не предоставляют адекватных оценок, отсутствуют качественные тестовые наборы с известным числом уязвимостей. Это говорит о малой базе исследований в этой области.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
     <z:Attachment rdf:about="#item_36">
         <z:itemType>attachment</z:itemType>
         <z:path rdf:resource="files/36/Zhang et al. - 2021 - Efficiency and Effectiveness of Web Application Vulnerability Detection Approaches A Review.pdf"/>
@@ -964,7 +1026,11 @@
                 </rdf:li>
             </rdf:Seq>
         </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_106"/>
         <link:link rdf:resource="#item_37"/>
+        <dc:subject>sql injection</dc:subject>
+        <dc:subject>owasp</dc:subject>
+        <dc:subject>xss</dc:subject>
         <dc:title>Securing web applications against XSS and SQLi attacks using a novel deep learning approach</dc:title>
         <dcterms:abstract>Several methods can be used to identify SQL injection attacks, including regular expression matching and MLbased models like Support Vector Machine, Naive Bayes, Random Forest, and Decision Tree. Regular expression matching is widely used among these methods due to its high accuracy rate and fast recognition speed. SQL injection attacks have been a consistent focus of network security research and are ranked as the top risk to network applications by the Open Web Application Security Project (OWASP)15. Various methods have been proposed to detect SQL injection in recent years by examining the threats, attack types and modes of attack.</dcterms:abstract>
         <dc:date>2024-01-20</dc:date>
@@ -986,6 +1052,14 @@
         <prism:number>1</prism:number>
         <dcterms:alternative>Sci Rep</dcterms:alternative>
     </bib:Journal>
+    <bib:Memo rdf:about="#item_106">
+        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(249, 250, 251);&quot;&gt;&lt;span style=&quot;background-color: rgb(21, 21, 23);&quot;&gt;Предложен новый подход к обнаружению SQL-инъекций и XSS-атак с использованием гибридной нейронной сети CNN+LSTM.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(249, 250, 251);&quot;&gt;&lt;span style=&quot;background-color: rgb(21, 21, 23);&quot;&gt;Модель обучается на трёх наборах данных: собственный тестовый стенд (DVWA/bWAPP + Burp Suite), публичный набор SQL/XSS-полезных нагрузок и бенчмарк HTTP CSIC 2010. &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(249, 250, 251);&quot;&gt;&lt;span style=&quot;background-color: rgb(21, 21, 23);&quot;&gt;Достигнута высокая точность (99.23–99.84%) и низкий уровень ложных срабатываний.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(249, 250, 251);&quot;&gt;&lt;span style=&quot;background-color: rgb(21, 21, 23);&quot;&gt;Данный подход может применяться для создания “умного“ WAF (Web Application Firewall) и IDS (Intrusion Detection System) - для выявления подозрительной активности и генерации предупреждений.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
     <z:Attachment rdf:about="#item_37">
         <z:itemType>attachment</z:itemType>
         <z:path rdf:resource="files/37/Tadhani et al. - 2024 - Securing web applications against XSS and SQLi attacks using a novel deep learning approach.pdf"/>
@@ -1073,7 +1147,11 @@
                 </rdf:li>
             </rdf:Seq>
         </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_50"/>
         <link:link rdf:resource="#item_40"/>
+        <dc:subject>web cache</dc:subject>
+        <dc:subject>wcp</dc:subject>
+        <dc:subject>wcd</dc:subject>
         <dc:title>Internet's Invisible Enemy: Detecting and Measuring Web Cache Poisoning in the Wild</dc:title>
         <dcterms:abstract>Web cache poisoning (WCP) has posed significant threats to Internet security by causing the cache server to deliver malicious responses to innocent users. This results in widespread denial of access to website resources and potential injection of harmful payloads. However, prior works on WCP vulnerability have been fragmented and conducted in a case-by-case form, lacking a systematic analysis of the threat landscape. In this paper, we fill this research gap by conducting a systematic evaluation of WCP vulnerabilities at scale. We propose HCache, a novel testing methodology to facilitates the widespread identification of WCP vulnerabilities. We evaluated our methodology against Tranco Top 1000 domains and their subdomains, and found that over 1,000 websites across 172 domains, representing 17% of the evaluated domains, are vulnerable to WCP. In particular, we have identified 7 new attack vectors stemming from previously unexplored caching headers. We have responsibly disclosed the vulnerabilities to the affected websites and received acknowledgements and bug bounties from world-famous companies, such as Alibaba, Adobe, Huawei, and Microsoft.</dcterms:abstract>
         <dc:date>December 9, 2024</dc:date>
@@ -1087,6 +1165,16 @@
         <z:libraryCatalog>ACM Digital Library</z:libraryCatalog>
         <bib:pages>452–466</bib:pages>
     </rdf:Description>
+    <bib:Memo rdf:about="#item_50">
+        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;Статья посвещена, в основном, уязвимостям уеб-приложений, связанных с неправильной настройкной CDN (Content Delivery Network) кеш серверов.&lt;/p&gt;
+&lt;p&gt;Основные определения:&lt;/p&gt;
+&lt;p&gt;Web Cache Deception (WCD) - это попадание чувствительныйх пользовательских данных в кеш.&lt;/p&gt;
+&lt;p&gt;Атакующий может легко их извлечь из кеша, отправив соответствующий запрос.&lt;/p&gt;
+&lt;p&gt;Web Cache Poisoning (WCP) - это загрузка в веб-кеш вредоносного контента.&lt;/p&gt;
+&lt;p&gt;На нормальные запросы со стороны других пользователей веб-кеш будет присылать ответ с этим вредоносный контентом.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
     <z:Attachment rdf:about="#item_40">
         <z:itemType>attachment</z:itemType>
         <z:path rdf:resource="files/40/Liang et al. - 2024 - Internet's Invisible Enemy Detecting and Measuring Web Cache Poisoning in the Wild.pdf"/>
@@ -1127,6 +1215,7 @@
             </rdf:Seq>
         </bib:contributors>
         <dcterms:isReferencedBy rdf:resource="#item_46"/>
+        <dcterms:isReferencedBy rdf:resource="#item_48"/>
         <link:link rdf:resource="#item_44"/>
         <dc:subject>
            <z:AutomaticTag><rdf:value>banks</rdf:value></z:AutomaticTag>
@@ -1255,6 +1344,13 @@ Medium: text/html</dc:description>
         <rdf:value>&lt;h2&gt;SeriesInformation&lt;/h2&gt;
 Международный научно-исследовательский журнал, Выпуск 5 (155) 2025</rdf:value>
     </bib:Memo>
+    <bib:Memo rdf:about="#item_48">
+        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(249, 250, 251);&quot;&gt;&lt;span style=&quot;background-color: rgb(21, 21, 23);&quot;&gt;Описана методология оценки безопасности мобильных и веб-приложений в финансовом секторе на основе “Общих критериев” (из ГОСТ Р ИСО/МЭК 15408/18045).&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(249, 250, 251);&quot;&gt;&lt;span style=&quot;background-color: rgb(21, 21, 23);&quot;&gt;Рекомендовано обновление PHP, удаление демо-компонентов и внедрение безопасной разработки. Сделан вывод о необходимости регулярной оценки по ОУД-4 для финансовых приложений&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;ОУД-4 (Оценочный уровень доверия 4) - это стандартизированный уровень оценки безопасности и надежности программного или аппаратного обеспечения в соответствии с международными и российскими стандартами &lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
     <z:Attachment rdf:about="#item_44">
         <z:itemType>attachment</z:itemType>
         <z:path rdf:resource="files/44/Милаков - 2025 - Тестирование и анализ уязвимостей мобильных и веб-приложений на основе «Общих критериев».pdf"/>
@@ -1271,6 +1367,9 @@ Medium: text/html</dc:description>
     <z:Attachment rdf:about="#item_47">
         <z:itemType>attachment</z:itemType>
         <z:path rdf:resource="files/47/YAnovich_Nedostatok.pdf"/>
+        <dc:subject>vulnerabilities</dc:subject>
+        <dc:subject>web applications</dc:subject>
+        <dc:subject>access control</dc:subject>
         <dc:title>YAnovich_Nedostatok.pdf</dc:title>
         <dc:identifier>
             <dcterms:URI>
@@ -1281,32 +1380,29 @@ Medium: text/html</dc:description>
         <z:linkMode>1</z:linkMode>
         <link:type>application/pdf</link:type>
     </z:Attachment>
-    <z:Collection rdf:about="#collection_2">
-        <dc:title>1_Vulnerabilities</dc:title>
-        <dcterms:hasPart rdf:resource="urn:isbn:978-1-5386-6947-1"/>
-        <dcterms:hasPart rdf:resource="#item_9"/>
-        <dcterms:hasPart rdf:resource="urn:isbn:978-1-4799-8676-7"/>
-        <dcterms:hasPart rdf:resource="https://dl.acm.org/doi/10.1145/3474553"/>
-        <dcterms:hasPart rdf:resource="https://research-journal.org/archive/5-155-2025-may/10.60797/IRJ.2025.155.1"/>
-        <dcterms:hasPart rdf:resource="#item_47"/>
-    </z:Collection>
     <z:Collection rdf:about="#collection_5">
-        <dc:title>2_Penetration_Testing_and_Attacks</dc:title>
+        <dc:title>Penetration Testing and Attacks</dc:title>
         <dcterms:hasPart rdf:resource="https://www.ijitee.org/portfolio-item/J91730881019/"/>
         <dcterms:hasPart rdf:resource="https://www.iieta.org/journals/rces/paper/10.18280/rces.090101"/>
         <dcterms:hasPart rdf:resource="urn:isbn:979-8-3315-1018-3"/>
-        <dcterms:hasPart rdf:resource="#item_22"/>
-        <dcterms:hasPart rdf:resource="https://drive.google.com/file/d/1t8ZETcmoFz3847OajBNdKQLnquPMxuFT/view"/>
         <dcterms:hasPart rdf:resource="urn:isbn:979-8-4007-0636-3"/>
         <dcterms:hasPart rdf:resource="https://research-journal.org/archive/5-155-2025-may/10.60797/IRJ.2025.155.1"/>
     </z:Collection>
     <z:Collection rdf:about="#collection_4">
-        <dc:title>3_Secure_Development</dc:title>
+        <dc:title>Secure Development</dc:title>
         <dcterms:hasPart rdf:resource="urn:isbn:978-1-59593-352-2"/>
         <dcterms:hasPart rdf:resource="https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-95.pdf"/>
         <dcterms:hasPart rdf:resource="#item_28"/>
         <dcterms:hasPart rdf:resource="#item_30"/>
         <dcterms:hasPart rdf:resource="urn:isbn:978-1-4503-5638-1"/>
         <dcterms:hasPart rdf:resource="https://www.nature.com/articles/s41598-023-48845-4"/>
+    </z:Collection>
+    <z:Collection rdf:about="#collection_2">
+        <dc:title>Vulnerabilities</dc:title>
+        <dcterms:hasPart rdf:resource="urn:isbn:978-1-5386-6947-1"/>
+        <dcterms:hasPart rdf:resource="#item_9"/>
+        <dcterms:hasPart rdf:resource="urn:isbn:978-1-4799-8676-7"/>
+        <dcterms:hasPart rdf:resource="https://dl.acm.org/doi/10.1145/3474553"/>
+        <dcterms:hasPart rdf:resource="#item_47"/>
     </z:Collection>
 </rdf:RDF>
