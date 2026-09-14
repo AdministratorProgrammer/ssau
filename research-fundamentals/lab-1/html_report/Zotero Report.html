@@ -1,0 +1,1850 @@
+<!DOCTYPE html>
+<html><head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src data:; style-src 'unsafe-inline' data:">
+		<title>Zotero Report</title>
+		<link rel="stylesheet" type="text/css" href="data:text/css;base64,Ym9keSB7Cgljb2xvci1zY2hlbWU6IGxpZ2h0IGRhcms7CgkvKiBUaGVzZSBzaG91bGQgYmUgdGhlIGRlZmF1bHRzLCBidXQganVzdCBpbiBjYXNlOiAqLwoJYmFja2dyb3VuZDogQ2FudmFzOwoJY29sb3I6IENhbnZhc1RleHQ7Cn0KCmEgewoJdGV4dC1kZWNvcmF0aW9uOiB1bmRlcmxpbmU7Cn0KCmJvZHkgewoJcGFkZGluZzogMDsKfQoKdWwucmVwb3J0IGxpLml0ZW0gewoJYm9yZGVyLXRvcDogNHB4IHNvbGlkICM1NTU7CglwYWRkaW5nLXRvcDogMWVtOwoJcGFkZGluZy1sZWZ0OiAxZW07CglwYWRkaW5nLXJpZ2h0OiAxZW07CgltYXJnaW4tYm90dG9tOiAyZW07Cn0KCmgxLCBoMiwgaDMsIGg0LCBoNSwgaDYgewoJZm9udC13ZWlnaHQ6IG5vcm1hbDsKfQoKaDIgewoJbWFyZ2luOiAwIDAgLjVlbTsKfQoKaDIucGFyZW50SXRlbSB7Cglmb250LXdlaWdodDogNjAwOwoJZm9udC1zaXplOiAxZW07CglwYWRkaW5nOiAwIDAgLjVlbTsKCWJvcmRlci1ib3R0b206IDFweCBzb2xpZCAjY2NjOwp9CgovKiBJZiBjb21iaW5pbmcgY2hpbGRyZW4sIGRpc3BsYXkgcGFyZW50IHNsaWdodGx5IGxhcmdlciAqLwp1bC5yZXBvcnQuY29tYmluZUNoaWxkSXRlbXMgaDIucGFyZW50SXRlbSB7Cglmb250LXNpemU6IDEuMWVtOwoJcGFkZGluZy1ib3R0b206IC43NWVtOwoJbWFyZ2luLWJvdHRvbTogLjRlbTsKfQoKaDIucGFyZW50SXRlbSAudGl0bGUgewoJZm9udC13ZWlnaHQ6IG5vcm1hbDsKfQoKaDMgewoJbWFyZ2luLWJvdHRvbTogLjZlbTsKCWZvbnQtd2VpZ2h0OiA2MDAgIWltcG9ydGFudDsKCWZvbnQtc2l6ZTogMWVtOwoJZGlzcGxheTogYmxvY2s7Cn0KCi8qIE1ldGFkYXRhIHRhYmxlICovCnRoIHsKCXZlcnRpY2FsLWFsaWduOiB0b3A7Cgl0ZXh0LWFsaWduOiByaWdodDsKCXdpZHRoOiAxNSU7Cgl3aGl0ZS1zcGFjZTogbm93cmFwOwp9Cgp0ZCB7CglwYWRkaW5nLWxlZnQ6IC41ZW07Cn0KCgp1bC5yZXBvcnQsIHVsLm5vdGVzLCB1bC50YWdzIHsKCWxpc3Qtc3R5bGU6IG5vbmU7CgltYXJnaW4tbGVmdDogMDsKCXBhZGRpbmctbGVmdDogMDsKfQoKLyogVGFncyAqLwpoMy50YWdzIHsKCWZvbnQtc2l6ZTogMS4xZW07Cn0KCnVsLnRhZ3MgewoJbGluZS1oZWlnaHQ6IDEuNzVlbTsKCWxpc3Qtc3R5bGU6IG5vbmU7Cn0KCnVsLnRhZ3MgbGkgewoJZGlzcGxheTogaW5saW5lOwp9Cgp1bC50YWdzIGxpOm5vdCg6bGFzdC1jaGlsZCk6YWZ0ZXIgewoJY29udGVudDogJywgJzsKfQoKCi8qIENoaWxkIG5vdGVzICovCmgzLm5vdGVzIHsKCWZvbnQtc2l6ZTogMS4xZW07Cn0KCnVsLm5vdGVzIHsKCW1hcmdpbi1ib3R0b206IDEuMmVtOwp9Cgp1bC5ub3RlcyA+IGxpOmZpcnN0LWNoaWxkIHAgewoJbWFyZ2luLXRvcDogMDsKfQoKdWwubm90ZXMgPiBsaSB7CglwYWRkaW5nOiAuN2VtIDA7Cn0KCnVsLm5vdGVzID4gbGk6bm90KDpsYXN0LWNoaWxkKSB7Cglib3JkZXItYm90dG9tOiAxcHggI2NjYyBzb2xpZDsKfQoKCnVsLm5vdGVzID4gbGkgcDpmaXJzdC1jaGlsZCB7CgltYXJnaW4tdG9wOiAwOwp9Cgp1bC5ub3RlcyA+IGxpIHA6bGFzdC1jaGlsZCB7CgltYXJnaW4tYm90dG9tOiAwOwp9CgovKiBBZGQgcXVvdGF0aW9uIG1hcmtzIGFyb3VuZCBibG9ja3F1b3RlICovCnVsLm5vdGVzID4gbGkgYmxvY2txdW90ZSBwOm5vdCg6ZW1wdHkpOmJlZm9yZSwKbGkubm90ZSBibG9ja3F1b3RlIHA6bm90KDplbXB0eSk6YmVmb3JlIHsKCWNvbnRlbnQ6ICfigJwnOwp9Cgp1bC5ub3RlcyA+IGxpIGJsb2NrcXVvdGUgcDpub3QoOmVtcHR5KTpsYXN0LWNoaWxkOmFmdGVyLApsaS5ub3RlIGJsb2NrcXVvdGUgcDpub3QoOmVtcHR5KTpsYXN0LWNoaWxkOmFmdGVyIHsKCWNvbnRlbnQ6ICfigJ0nOwp9CgovKiBQcmVzZXJ2ZSB3aGl0ZXNwYWNlIG9uIHBsYWludGV4dCBub3RlcyAqLwp1bC5ub3RlcyBsaSBwLnBsYWludGV4dCwgbGkubm90ZSBwLnBsYWludGV4dCwgZGl2Lm5vdGUgcC5wbGFpbnRleHQgewoJd2hpdGUtc3BhY2U6IHByZS13cmFwOwp9CgovKiBEaXNwbGF5IHRhZ3Mgd2l0aGluIGNoaWxkIG5vdGVzIGlubGluZSAqLwp1bC5ub3RlcyBoMy50YWdzIHsKCWRpc3BsYXk6IGlubGluZTsKCWZvbnQtc2l6ZTogMWVtOwp9Cgp1bC5ub3RlcyBoMy50YWdzOmFmdGVyIHsKCWNvbnRlbnQ6ICcgJzsKfQoKdWwubm90ZXMgdWwudGFncyB7CglkaXNwbGF5OiBpbmxpbmU7Cn0KCnVsLm5vdGVzIHVsLnRhZ3MgbGk6bm90KDpsYXN0LWNoaWxkKTphZnRlciB7Cgljb250ZW50OiAnLCAnOwp9CgoKLyogQ2hpbGQgYXR0YWNobWVudHMgKi8KaDMuYXR0YWNobWVudHMgewoJZm9udC1zaXplOiAxLjFlbTsKfQoKdWwuYXR0YWNobWVudHMgbGkgewoJcGFkZGluZy10b3A6IC41ZW07Cn0KCnVsLmF0dGFjaG1lbnRzIGRpdi5ub3RlIHsKCW1hcmdpbi1sZWZ0OiAyZW07Cn0KCnVsLmF0dGFjaG1lbnRzIGRpdi5ub3RlIHA6Zmlyc3QtY2hpbGQgewoJbWFyZ2luLXRvcDogLjc1ZW07Cn0KCmRpdiB0YWJsZSB7Cglib3JkZXItY29sbGFwc2U6IGNvbGxhcHNlOwp9CgpkaXYgdGFibGUgdGQsIGRpdiB0YWJsZSB0aCB7Cglib3JkZXI6IDFweCAjY2NjIHNvbGlkOwoJYm9yZGVyLWNvbGxhcHNlOiBjb2xsYXBzZTsKCXdvcmQtYnJlYWs6IGJyZWFrLWFsbDsKfQoKZGl2IHRhYmxlIHRkIHA6ZW1wdHk6OmFmdGVyLCBkaXYgdGFibGUgdGggcDplbXB0eTo6YWZ0ZXIgewoJY29udGVudDogIlwwMGEwIjsKfQoKZGl2IHRhYmxlIHRkICo6Zmlyc3QtY2hpbGQsIGRpdiB0YWJsZSB0aCAqOmZpcnN0LWNoaWxkIHsKCW1hcmdpbi10b3A6IDA7Cn0KCmRpdiB0YWJsZSB0ZCAqOmxhc3QtY2hpbGQsIGRpdiB0YWJsZSB0aCAqOmxhc3QtY2hpbGQgewoJbWFyZ2luLWJvdHRvbTogMDsKfQo=">
+		<link rel="stylesheet" type="text/css" media="screen,projection" href="data:text/css;base64,LyogR2VuZXJpYyBzdHlsZXMgKi8KYm9keSB7Cglmb250OiA2Mi41JSBHZW9yZ2lhLCBUaW1lcywgc2VyaWY7Cgl3aWR0aDogNzgwcHg7CgltYXJnaW46IDAgYXV0bzsKfQoKaDIgewoJZm9udC1zaXplOiAxLjVlbTsKCWxpbmUtaGVpZ2h0OiAxLjVlbTsKCWZvbnQtZmFtaWx5OiBHZW9yZ2lhLCBUaW1lcywgc2VyaWY7Cn0KCnAgewoJbGluZS1oZWlnaHQ6IDEuNWVtOwp9CgphOmFueS1saW5rIHsKCWNvbG9yOiAjOTAwOwp9CgphOmhvdmVyLCBhOmFjdGl2ZSB7Cgljb2xvcjogIzc3NzsKfQoKQG1lZGlhIChwcmVmZXJzLWNvbG9yLXNjaGVtZTogZGFyaykgewoJYTphbnktbGluayB7CgkJY29sb3I6ICNmMDA7Cgl9CgoJYTpob3ZlciwgYTphY3RpdmUgewoJCWNvbG9yOiAjOTk5OwoJfQp9CgoKdWwucmVwb3J0IHsKCWZvbnQtc2l6ZTogMS40ZW07Cgl3aWR0aDogNjgwcHg7CgltYXJnaW46IDAgYXV0bzsKCXBhZGRpbmc6IDIwcHggMjBweDsKfQoKLyogTWV0YWRhdGEgdGFibGUgKi8KdGFibGUgewoJYm9yZGVyOiAxcHggI2NjYyBzb2xpZDsKCW92ZXJmbG93OiBhdXRvOwoJd2lkdGg6IDEwMCU7CgltYXJnaW46IC4xZW0gYXV0byAuNzVlbTsKCXBhZGRpbmc6IDAuNWVtOwp9Cg==">
+		<link rel="stylesheet" type="text/css" media="print" href="data:text/css;base64,Ym9keSB7Cglmb250OiAxMnB0ICJUaW1lcyBOZXcgUm9tYW4iLCBUaW1lcywgR2VvcmdpYSwgc2VyaWY7CgltYXJnaW46IDA7Cgl3aWR0aDogYXV0bzsKfQoKLyogUGFnZSBCcmVha3MgKHBhZ2UtYnJlYWstaW5zaWRlIG9ubHkgcmVjb2duaXplZCBieSBPcGVyYSkgKi8KaDEsIGgyLCBoMywgaDQsIGg1LCBoNiB7CglwYWdlLWJyZWFrLWFmdGVyOiBhdm9pZDsKCXBhZ2UtYnJlYWstaW5zaWRlOiBhdm9pZDsKfQoKdWwsIG9sLCBkbCB7CglwYWdlLWJyZWFrLWluc2lkZTogYXZvaWQ7Cgljb2xvci1hZGp1c3Q6IGV4YWN0Owp9CgpoMiB7Cglmb250LXNpemU6IDEuM2VtOwoJbGluZS1oZWlnaHQ6IDEuM2VtOwp9CgphIHsKCWNvbG9yOiBpbmhlcml0OwoJdGV4dC1kZWNvcmF0aW9uOiBub25lOwp9Cg==">
+	</head>
+	<body>
+		<ul class="report combineChildItems">
+			<li id="item_5ZA72Z8J" class="item journalArticle">
+			<h2>A Review on Web Application Vulnerability Assessment and Penetration Testing</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Urshila Ravindran</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Raghu Vamsi Potukuchi</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2022-3-31</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.18280/rces.090101">10.18280/rces.090101</a></td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.iieta.org/journals/rces/paper/10.18280/rces.090101">https://www.iieta.org/journals/rces/paper/10.18280/rces.090101</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>9/9/2026, 7:48:15 PM</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>9</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>1-22</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Review of Computer Engineering Studies</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>23690755, 23690763</td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>1</td>
+					</tr>
+					<tr>
+					<th>Journal Abbr</th>
+						<td>RCES</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>9/9/2026, 7:48:15 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>9/10/2026, 5:46:39 AM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>penetration testing</li>
+					<li>vulnerability assessment</li>
+					<li>burp suite</li>
+				</ul>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_F3HVR3RP">
+<div><div data-schema-version="9"><p>Существуют 2-е основных стратегии тестирования веб-приложения:<br>1) black box testing<br>2) grey box testing</p>
+<p>Black box testing (тестирование чёрной коробки) - это техника 
+тестирования приложения, при которой тестировщик (атакующий) не знает 
+внутреннего устройства системы.</p>
+<p>Grey box testing - техника тестирования приложения, при которой 
+тестировщик имеет некоторые сведения о внутреннем устройстве системы, 
+полученные от владельца или разработчика.</p>
+<p></p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_4AE2WQQW">PDF					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_UYLGBQRK" class="item conferencePaper">
+			<h2>Agile development of secure web applications</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Conference Paper</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Xiaocheng Ge</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Richard F. Paige</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Fiona A.C. Polack</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Howard Chivers</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Phillip J. Brooke</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>A secure system is one that is protected against specific 
+undesired outcomes.Delivering a secure system, and particularly a secure
+ web application, is not easy.Integrating general-purpose information 
+systems development methods withsecurity development activities could be
+ a useful means to surmount thesedifficulties Agile processes, such as 
+Extreme Programming, are of increasing interest insoftware development. 
+Most significantly for web applications, agile processesencourage and 
+embrace requirements change, which is a desirable characteristicfor web 
+application development.In this paper, we present an agile process to 
+deliver secure web applications.The contribution of the research is not 
+the development of a new method or processthat addresses security 
+concerns. Rather, we investigate general-purpose 
+informationsystemdevelopment methods (e.g., Feature-Driven Development 
+(FDD)) and mature security methods, namely risk analysis, and integrate 
+them to address the development of secure web applications. The key 
+features of our approach are(1) a process capable of dealing with the 
+key challenges of web applicationsdevelopment, namely decreasing 
+life-cycle times and frequently changing requirements; and (2) an 
+iterative approach to risk analysis that integrates security design 
+throughout the development process.</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>July 11, 2006</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1145/1145581.1145641">10.1145/1145581.1145641</a></td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://dl.acm.org/doi/10.1145/1145581.1145641">https://dl.acm.org/doi/10.1145/1145581.1145641</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>9/9/2026, 4:00:00 AM</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>ACM Digital Library</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>Association for Computing Machinery</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>New York, NY, USA</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-1-59593-352-2</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>305–312</td>
+					</tr>
+					<tr>
+					<th>Series</th>
+						<td>ICWE '06</td>
+					</tr>
+					<tr>
+					<th>Proceedings Title</th>
+						<td>Proceedings of the 6th international conference on Web engineering</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>9/9/2026, 7:55:49 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>9/10/2026, 1:59:05 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>web applications</li>
+					<li>use case model</li>
+					<li>security policy</li>
+					<li>secure web application</li>
+					<li>architecture</li>
+					<li>development methods</li>
+				</ul>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_FPR6V2LL">
+<div><div data-schema-version="9"><p><span style="color: rgb(249, 250, 251);"><span style="background-color: rgb(21, 21, 23);">Авторы
+ предлагают agile-процесс для разработки безопасных веб-приложений, 
+основанный на расширении подхода Feature-Driven Development (FDD) за 
+счёт интеграции итеративного анализа рисков. Ключевая идея - встроить 
+безопасность во все фазы разработки, начиная с определения политики 
+безопасности и заканчивая реализацией. На каждом шаге итерации 
+проводится анализ рисков для всей системы (включая уже существующие 
+функции), что позволяет выявлять новые уязвимости и своевременно их 
+исправлять.</span></span></p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_Y7WI6AGT">Full Text PDF					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_TGBL9GV8" class="item journalArticle">
+			<h2>Agile Development of Secure Web-Based Applications</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>A F Tappenden</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>T Huynh</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>J Miller</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>A Geras</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>M Smith</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>This article outlines a four-point strategy for the 
+development of secure Web-based applications within an agile development
+ framework and introduces strategies to mitigate security risks commonly
+ present in Web-based applications. The proposed strategy includes the 
+representation of security requirements as test cases supported by the 
+open source tool FIT, the deployment of a highly testable architecture 
+allowing for security testing of the application at all levels, the 
+outlining of an extensive security testing strategy supported by the 
+open source unit-testing framework HTTPUnit, and the introduction of the
+ novel technique of security refactoring that transforms insecure 
+working code into a functionally equivalent secure code. Today, many 
+Web-based applications are not secure, and limited literature exists 
+concerning the use of agile methods within this domain. It is the 
+intention of this article to further discussions and research regarding 
+the use of an agile methodology for the development of secure Web-based 
+applications.</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2006</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>Zotero</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>9/9/2026, 7:58:45 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>9/10/2026, 7:31:55 AM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>sql injection</li>
+					<li>secure web application</li>
+					<li>architecture</li>
+				</ul>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_DGUGZXQ9">
+<div><div data-schema-version="9"><p><span style="color: rgb(249, 250, 251);"><span style="background-color: rgb(21, 21, 23);">Предлагается стратегия для разработки безопасных веб-приложений в agile-фреймворке:<br><br>1) представление требований безопасности в виде тест-кейсов с использованием инструмента FIT</span></span></p>
+<p><span style="color: rgb(249, 250, 251);"><span style="background-color: rgb(21, 21, 23);">2) проектирование “высокотестируемой” архитектуры, позволяющей проводить тестирование безопасности на всех уровнях</span></span></p>
+<p><span style="color: rgb(249, 250, 251);"><span style="background-color: rgb(21, 21, 23);">3) автоматизированное тестирование безопасности с помощью HTTPUnit (для SQL-инъекций, XSS, модификации с cookie и т.п.)</span></span></p>
+<p><span style="color: rgb(249, 250, 251);"><span style="background-color: rgb(21, 21, 23);">4) технику “security refactoring” - преобразование небезопасного рабочего кода в такой же по функционалу, но безопасный код.</span></span></p>
+<p><span style="color: rgb(249, 250, 251);"><span style="background-color: rgb(21, 21, 23);">Приводятся примеры для типичных веб-уязвимостей.</span></span></p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_WJC2ZZ8U">PDF					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_Y2ZV2WVG" class="item journalArticle">
+			<h2>Developing Secure Web Applications</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Izhar Bar-Gad</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Amit Klein</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2002</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>Zotero</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>9/9/2026, 7:58:05 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>9/10/2026, 1:37:01 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>secure web application</li>
+					<li>authentication</li>
+					<li>architecture</li>
+					<li>security checklist</li>
+				</ul>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_QWZVZPNY">
+<div><div data-schema-version="9"><p><span style="color: rgb(249, 250, 251);"><span style="background-color: rgb(21, 21, 23);">Основные
+ принципы: никогда не доверять данным с клиента, проверять все входные 
+параметры на сервере, избегать свободного ввода, применять POST вместо 
+GET, шифровать и подписывать параметры, управлять сессиями 
+(аутентификация, таймауты, завершение), защищать точки входа, шифровать 
+трафик и т.п.</span></span></p>
+<p></p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_AD92494H">PDF					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_KAWZ9QHZ" class="item journalArticle">
+			<h2>Efficiency and Effectiveness of Web Application Vulnerability Detection Approaches: A Review</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Bing Zhang</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Jingyue Li</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Jiadong Ren</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Guoyan Huang</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>Most existing surveys and reviews on web application 
+vulnerability detection (WAVD) approaches focus on comparing and 
+summarizing the approaches’ technical details. Although some studies 
+have analyzed the efficiency and effectiveness of specific methods, 
+there is a lack of a comprehensive and systematic analysis of the 
+efficiency and effectiveness of various WAVD approaches. We conducted a 
+systematic literature review (SLR) of WAVD approaches and analyzed their
+ efficiency and effectiveness. We identified 105 primary studies out of 
+775 WAVD articles published between January 2008 and June 2019. Our 
+study identified 10 categories of artifacts analyzed by the WAVD 
+approaches and 8 categories of WAVD meta-approaches for analyzing the 
+artifacts. Our study’s results also summarized and compared the 
+effectiveness and efficiency of different WAVD approaches on detecting 
+specific categories of web application vulnerabilities and which web 
+applications and test suites are used to evaluate the WAVD approaches. 
+To our knowledge, this is the first SLR that focuses on summarizing the 
+effectiveness and efficiencies of WAVD approaches. Our study results can
+ help security engineers choose and compare WAVD tools and help 
+researchers identify research gaps.</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>October 8, 2021</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1145/3474553">10.1145/3474553</a></td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://dl.acm.org/doi/10.1145/3474553">https://dl.acm.org/doi/10.1145/3474553</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>9/9/2026, 8:10:11 PM</td>
+					</tr>
+					<tr>
+					<th>Short Title</th>
+						<td>Efficiency and Effectiveness of Web Application Vulnerability Detection Approaches</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>ACM Digital Library</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>54</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>190:1–190:35</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>ACM Comput. Surv.</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>0360-0300</td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>9</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>9/9/2026, 8:10:11 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>9/10/2026, 1:47:45 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>vulnerabilities</li>
+					<li>web applications</li>
+					<li>vulnerability detection</li>
+				</ul>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_DNLDDUIY">
+<div><div data-schema-version="9"><p><span style="color: rgb(249, 250, 251);"><span style="background-color: rgb(21, 21, 23);">Это
+ обзор литературы, в которой говориться об эффективности и 
+производительности подходов к обнаружению уязвимостей веб-приложений (в 
+основном для инъекций SQLi и XSS).</span></span></p>
+<p><span style="color: rgb(249, 250, 251);"><span style="background-color: rgb(21, 21, 23);">Выводы:
+ большинство работ не предоставляют адекватных оценок, отсутствуют 
+качественные тестовые наборы с известным числом уязвимостей. Это говорит
+ о малой базе исследований в этой области.</span></span></p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_RHU92TIS">Full Text PDF					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_AX6YUT2J" class="item report">
+			<h2>Guide to secure web services</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Report</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>A Singhal</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>T Winograd</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>K A Scarfone</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2007</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.6028/NIST.SP.800-95">10.6028/NIST.SP.800-95</a></td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-95.pdf">https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-95.pdf</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>9/9/2026, 7:57:14 PM</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Edition: 0</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>Gaithersburg, MD</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>NIST SP 800-95</td>
+					</tr>
+					<tr>
+					<th>Institution</th>
+						<td>National Institute of Standards and Technology</td>
+					</tr>
+					<tr>
+					<th>Report Number</th>
+						<td>NIST SP 800-95</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>9/9/2026, 7:57:14 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>9/10/2026, 7:28:41 AM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>web service</li>
+					<li>authorization</li>
+					<li>protecting resources</li>
+					<li>osi</li>
+				</ul>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_C5HGFDHJ">
+<div><div data-schema-version="9"><p><span style="color: rgb(249, 250, 251);"><span style="background-color: rgb(21, 21, 23);">Описываются
+ угрозы, стандарты и технологии защиты: WS-Security, XML Encryption, XML
+ Signature, SAML, XACML, WS-Policy, WS-Trust, WS-Federation и т.п. 
+Рассматриваются аспекты аутентификации, авторизации, конфиденциальности,
+ целостности, неотказуемости и доступности.</span></span></p>
+<p><span style="color: rgb(249, 250, 251);"><span style="background-color: rgb(21, 21, 23);">Особое
+ внимание уделено управлению идентификацией, федерации доверия, защите 
+реестров, веб-порталам и интеграции унаследованных приложений. 
+Приводится описание типичных атак (SQL-инъекции, XSS, DoS и т.д.) и 
+методов противодействия.</span></span></p>
+<p><span style="color: rgb(249, 250, 251);"><span style="background-color: rgb(21, 21, 23);">По факту, данная статья обобщает лучшие практики и стандарты для построения безопасных веб-сервисов.</span></span></p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_I2QICVMZ">PDF					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_PJ4ITP3V" class="item conferencePaper">
+			<h2>Internet's Invisible Enemy: Detecting and Measuring Web Cache Poisoning in the Wild</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Conference Paper</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Yuejia Liang</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Jianjun Chen</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Run Guo</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Kaiwen Shen</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Hui Jiang</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Man Hou</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Yue Yu</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Haixin Duan</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>Web cache poisoning (WCP) has posed significant threats to 
+Internet security by causing the cache server to deliver malicious 
+responses to innocent users. This results in widespread denial of access
+ to website resources and potential injection of harmful payloads. 
+However, prior works on WCP vulnerability have been fragmented and 
+conducted in a case-by-case form, lacking a systematic analysis of the 
+threat landscape. In this paper, we fill this research gap by conducting
+ a systematic evaluation of WCP vulnerabilities at scale. We propose 
+HCache, a novel testing methodology to facilitates the widespread 
+identification of WCP vulnerabilities. We evaluated our methodology 
+against Tranco Top 1000 domains and their subdomains, and found that 
+over 1,000 websites across 172 domains, representing 17% of the 
+evaluated domains, are vulnerable to WCP. In particular, we have 
+identified 7 new attack vectors stemming from previously unexplored 
+caching headers. We have responsibly disclosed the vulnerabilities to 
+the affected websites and received acknowledgements and bug bounties 
+from world-famous companies, such as Alibaba, Adobe, Huawei, and 
+Microsoft.</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>December 9, 2024</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1145/3658644.3690361">10.1145/3658644.3690361</a></td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://dl.acm.org/doi/10.1145/3658644.3690361">https://dl.acm.org/doi/10.1145/3658644.3690361</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>9/9/2026, 4:00:00 AM</td>
+					</tr>
+					<tr>
+					<th>Short Title</th>
+						<td>Internet's Invisible Enemy</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>ACM Digital Library</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>Association for Computing Machinery</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>New York, NY, USA</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>979-8-4007-0636-3</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>452–466</td>
+					</tr>
+					<tr>
+					<th>Series</th>
+						<td>CCS '24</td>
+					</tr>
+					<tr>
+					<th>Proceedings Title</th>
+						<td>Proceedings of the 2024 on ACM SIGSAC Conference on Computer and Communications Security</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>9/9/2026, 8:14:11 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>9/10/2026, 1:03:07 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>web cache</li>
+					<li>wcp</li>
+					<li>wcd</li>
+				</ul>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_TBZKA8N2">
+<div><div data-schema-version="9"><p>Статья посвещена, в основном, 
+уязвимостям уеб-приложений, связанных с неправильной настройкной CDN 
+(Content Delivery Network) кеш серверов.</p>
+<p>Основные определения:</p>
+<p>Web Cache Deception (WCD) - это попадание чувствительныйх пользовательских данных в кеш.</p>
+<p>Атакующий может легко их извлечь из кеша, отправив соответствующий запрос.</p>
+<p>Web Cache Poisoning (WCP) - это загрузка в веб-кеш вредоносного контента.</p>
+<p>На нормальные запросы со стороны других пользователей веб-кеш будет присылать ответ с этим вредоносный контентом.</p>
+<p></p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_J3Z3SE88">Full Text PDF					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_URG6SYPX" class="item conferencePaper">
+			<h2>Secure coding practices in Java: challenges and vulnerabilities</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Conference Paper</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Na Meng</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Stefan Nagy</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Danfeng (Daphne) Yao</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Wenjie Zhuang</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Gustavo Arango Argoty</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>The Java platform and its third-party libraries provide useful
+ features to facilitate secure coding. However, misusing them can cost 
+developers time and effort, as well as introduce security 
+vulnerabilities in software. We conducted an empirical study on 
+StackOverflow posts, aiming to understand developers' concerns on Java 
+secure coding, their programming obstacles, and insecure coding 
+practices.We observed a wide adoption of the authentication and 
+authorization features provided by Spring Security---a third-party 
+framework designed to secure enterprise applications. We found that 
+programming challenges are usually related to APIs or libraries, 
+including the complicated cross-language data handling of cryptography 
+APIs, and the complex Java-based or XML-based approaches to configure 
+Spring Security. In addition, we reported multiple security 
+vulnerabilities in the suggested code of accepted answers on the 
+StackOverfow forum. The vulnerabilities included disabling the default 
+protection against Cross-Site Request Forgery (CSRF) attacks, breaking 
+SSL/TLS security through bypassing certificate validation, and using 
+insecure cryptographic hash functions. Our findings reveal the 
+insufficiency of secure coding assistance and documentation, as well as 
+the huge gap between security theory and coding practices.</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>May 27, 2018</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1145/3180155.3180201">10.1145/3180155.3180201</a></td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://dl.acm.org/doi/10.1145/3180155.3180201">https://dl.acm.org/doi/10.1145/3180155.3180201</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>9/9/2026, 4:00:00 AM</td>
+					</tr>
+					<tr>
+					<th>Short Title</th>
+						<td>Secure coding practices in Java</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>ACM Digital Library</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>Association for Computing Machinery</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>New York, NY, USA</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-1-4503-5638-1</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>372–383</td>
+					</tr>
+					<tr>
+					<th>Series</th>
+						<td>ICSE '18</td>
+					</tr>
+					<tr>
+					<th>Proceedings Title</th>
+						<td>Proceedings of the 40th International Conference on Software Engineering</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>9/9/2026, 8:06:33 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>9/10/2026, 7:39:17 AM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>vulnerabilities</li>
+					<li>authentication</li>
+					<li>java</li>
+					<li>csrf</li>
+				</ul>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_QZU4LLMR">
+<div><div data-schema-version="9"><p><span style="color: rgb(249, 250, 251);"><span style="background-color: rgb(21, 21, 23);">Статья является исследованием 503-х постов на StackOverflow, посвящённых безопасному программированию на Java.</span></span></p>
+<p><span style="color: rgb(249, 250, 251);"><span style="background-color: rgb(21, 21, 23);">Авторы
+ анализируют проблемы разработчиков, связанные с использованием 
+библиотек (особенно Spring Security, криптографии, SSL/TLS) и выявляют 
+уязвимости в рекомендованном коде принятых ответов.</span></span></p>
+<p><span style="color: rgb(249, 250, 251);"><span style="background-color: rgb(21, 21, 23);">Обнаружены
+ опасные практики: отключение CSRF-защиты, доверие всем 
+SSL-сертификатам, использование слабых хеш-функций (MD5, SHA-1).</span></span></p>
+<p><span style="color: rgb(249, 250, 251);"><span style="background-color: rgb(21, 21, 23);">Таким
+ образом, статья показывает, что социальные факторы (репутация, голоса) 
+могут способствовать распространению небезопасных решений.</span></span></p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_8AMZSD5P">Full Text PDF					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_UQSA2YXV" class="item journalArticle">
+			<h2>Securing web applications against XSS and SQLi attacks using a novel deep learning approach</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Jaydeep R. Tadhani</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Vipul Vekariya</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Vishal Sorathiya</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Samah Alshathri</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Walid El-Shafai</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>Several methods can be used to identify SQL injection attacks,
+ including regular expression matching and MLbased models like Support 
+Vector Machine, Naive Bayes, Random Forest, and Decision Tree. Regular 
+expression matching is widely used among these methods due to its high 
+accuracy rate and fast recognition speed. SQL injection attacks have 
+been a consistent focus of network security research and are ranked as 
+the top risk to network applications by the Open Web Application 
+Security Project (OWASP)15. Various methods have been proposed to detect
+ SQL injection in recent years by examining the threats, attack types 
+and modes of attack.</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2024-01-20</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1038/s41598-023-48845-4">10.1038/s41598-023-48845-4</a></td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.nature.com/articles/s41598-023-48845-4">https://www.nature.com/articles/s41598-023-48845-4</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>9/9/2026, 8:12:19 PM</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>14</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>1803</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Scientific Reports</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>2045-2322</td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>1</td>
+					</tr>
+					<tr>
+					<th>Journal Abbr</th>
+						<td>Sci Rep</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>9/9/2026, 8:12:19 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>9/10/2026, 1:39:27 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>sql injection</li>
+					<li>owasp</li>
+					<li>xss</li>
+				</ul>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_C6ZL852C">
+<div><div data-schema-version="9"><p><span style="color: rgb(249, 250, 251);"><span style="background-color: rgb(21, 21, 23);">Предложен новый подход к обнаружению SQL-инъекций и XSS-атак с использованием гибридной нейронной сети CNN+LSTM.</span></span></p>
+<p><span style="color: rgb(249, 250, 251);"><span style="background-color: rgb(21, 21, 23);">Модель
+ обучается на трёх наборах данных: собственный тестовый стенд 
+(DVWA/bWAPP + Burp Suite), публичный набор SQL/XSS-полезных нагрузок и 
+бенчмарк HTTP CSIC 2010. </span></span></p>
+<p><span style="color: rgb(249, 250, 251);"><span style="background-color: rgb(21, 21, 23);">Достигнута высокая точность (99.23–99.84%) и низкий уровень ложных срабатываний.</span></span></p>
+<p><span style="color: rgb(249, 250, 251);"><span style="background-color: rgb(21, 21, 23);">Данный
+ подход может применяться для создания “умного“ WAF (Web Application 
+Firewall) и IDS (Intrusion Detection System) - для выявления 
+подозрительной активности и генерации предупреждений.</span></span></p>
+<p></p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_T5SB8NCW">PDF					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_CELZU4S5" class="item journalArticle">
+			<h2>Toward Automated Detection of Logic Vulnerabilities in Web Applications</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Viktoria Felmetsger</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Ludovico Cavedon</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Christopher Kruegel</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Giovanni Vigna</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>Web applications are the most common way to make services and 
+data available on the Internet. Unfortunately, with the increase in the 
+number and complexity of these applications, there has also been an 
+increase in the number and complexity of vulnerabilities. Current 
+techniques to identify security problems in web applications have mostly
+ focused on input validation ﬂaws, such as crosssite scripting and SQL 
+injection, with much less attention devoted to application logic 
+vulnerabilities.</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>Zotero</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>9/9/2026, 7:45:31 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>9/10/2026, 1:56:37 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>vulnerabilities</li>
+					<li>sql injection</li>
+					<li>xss</li>
+					<li>vulnerability detection</li>
+				</ul>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_FE7GKQ2A">
+<div><div data-schema-version="9"><p><span style="color: rgb(249, 250, 251);"><span style="background-color: rgb(21, 21, 23);">Исследователи сделали первый шаг к автоматическому поиску логических уязвимостей в веб-приложениях. </span></span></p>
+<p><span style="color: rgb(249, 250, 251);"><span style="background-color: rgb(21, 21, 23);">Сначала
+ они запускают приложение как обычный пользователь и с помощью 
+инструмента Daikon собирают “правила”, которые обычно соблюдаются (т.е. 
+инфарианты). </span></span></p>
+<p><span style="color: rgb(249, 250, 251);"><span style="background-color: rgb(21, 21, 23);">Потом
+ с помощью Java PathFinder они символьно проверяют разные пути 
+выполнения программы: есть ли такой путь, где эти правила нарушаются. 
+Чтобы не отвлекаться на случайные или ложные правила, они отсеивают их 
+двумя способами:</span></span></p>
+<p><span style="color: rgb(249, 250, 251);"><span style="background-color: rgb(21, 21, 23);">1) смотрят, есть ли в коде проверки, которые поддерживают это правило</span></span></p>
+<p><span style="color: rgb(249, 250, 251);"><span style="background-color: rgb(21, 21, 23);">2)
+ проверяют, связывает ли правило данные сессии и базы данных. На основе 
+этого подхода был создан инструмент Waler, который нашёл ранее 
+неизвестные логические уязвимости в реальных приложениях.</span></span></p>
+<p><span style="color: rgb(249, 250, 251);"><span style="background-color: rgb(21, 21, 23);">Пример: обход авторизации или возможность редактировать чужие сообщения.</span></span></p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_HCTY9LMJ">PDF					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_BSP6HMKZ" class="item conferencePaper">
+			<h2>Vulnerabilities and Security of Web Applications</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Conference Paper</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Divyani Yadav</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Deeksha Gupta</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Dhananjay Singh</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Devendra Kumar</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Upasana Sharma</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>Web applications are active websites which are composition of 
+server based programs serving user interaction and various other 
+functionalities. Web Server security is thus an important aspect for any
+ organisation having web server connectivity with the internet and also 
+to ensure customers using their websites, for a secure online portal.</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>12/2018</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1109/CCAA.2018.8777558">10.1109/CCAA.2018.8777558</a></td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://ieeexplore.ieee.org/document/8777558/">https://ieeexplore.ieee.org/document/8777558/</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>9/9/2026, 7:44:44 PM</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>IEEE</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>Greater Noida, India</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-1-5386-6947-1</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>1-5</td>
+					</tr>
+					<tr>
+					<th>Proceedings Title</th>
+						<td>2018 4th International Conference on Computing Communication and Automation (ICCCA)</td>
+					</tr>
+					<tr>
+					<th>Conference Name</th>
+						<td>2018 4th International Conference on Computing Communication and Automation (ICCCA)</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>9/9/2026, 7:44:44 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>9/10/2026, 1:51:49 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>secure web application</li>
+					<li>architecture</li>
+					<li>securing data</li>
+				</ul>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_DC9NPQBE">
+<div><div data-schema-version="9"><p><span style="color: rgb(249, 250, 251);"><span style="background-color: rgb(21, 21, 23);">Это,
+ фактически, бзорная статья, посвящённая основным уязвимостям 
+веб-приложений (невалидированный ввод, неправильная обработка ошибок) и 
+методам защиты. </span></span></p>
+<p><span style="color: rgb(249, 250, 251);"><span style="background-color: rgb(21, 21, 23);">Рассматривается
+ безопасности в разных областях: академической среде, электронной 
+коммерции, базах данных, операционных системах и мобильных приложениях.</span></span></p>
+<p><span style="color: rgb(249, 250, 251);"><span style="background-color: rgb(21, 21, 23);">Приводятся рекомендации: проверка входных данных, ограничение доступа, шифрование, использование firewall, аудит безопасности.</span></span></p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_537QD49N">PDF					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_7SN9N774" class="item journalArticle">
+			<h2>Web Application Penetration Testing</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Assistant professor, Department of IT, Sri Krishna College of Engineering and Technology.</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Nagendran K</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Adithyan A</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>lectures at various worshops and Universities including Defcon Trivandrum and IITM Research Park.</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Chethana Ravichandran</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>pursuing third year in the branch of information technology.</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Bala Sri Varshini K B</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>pursuing Third year B.Tech. Information Technology at Sri Krishna College Of Engineering and Technology</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Camillus P</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>pursuing B.tech information technology at Sri Krishna College of engineering and technology</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>This paper describes the in-depth technical approach to 
+perform manual penetration test in web applications for testing the 
+integrity and security of the application and also serves as a guide to 
+test OWASP top 10 security vulnerabilities. The paper is more focused on
+ providing detailed knowledge about manual web application penetration 
+testing methodologies in order to secure them from malicious black hat 
+hackers.</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2019-08-30</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.35940/ijitee.J9173.0881019">10.35940/ijitee.J9173.0881019</a></td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.ijitee.org/portfolio-item/J91730881019/">https://www.ijitee.org/portfolio-item/J91730881019/</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>9/9/2026, 7:47:44 PM</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>8</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>1029-1035</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>International Journal of Innovative Technology and Exploring Engineering</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>22783075</td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>10</td>
+					</tr>
+					<tr>
+					<th>Journal Abbr</th>
+						<td>IJITEE</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>9/9/2026, 7:47:44 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>9/10/2026, 6:20:35 AM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>penetration testing</li>
+					<li>scanning tools</li>
+					<li>sql injection</li>
+					<li>reflected xss</li>
+				</ul>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_GWCF9QRL">
+<div><div data-schema-version="9"><p><span style="color: rgb(249, 250, 251);"><span style="background-color: rgb(21, 21, 23);">Подробно разобраны SQL-инъекции (union-based, error-based, blind)</span></span></p>
+<p><span style="color: rgb(249, 250, 251);"><span style="background-color: rgb(21, 21, 23);">XSS атаки (reflected, stored, DOM-based, mXSS), CSRF, CORS, IDOR, RCE.</span></span></p>
+<p><span style="color: rgb(249, 250, 251);"><span style="background-color: rgb(21, 21, 23);">Приведены примеры полезных нагрузок и методов защиты. </span></span></p>
+<p><span style="color: rgb(249, 250, 251);"><span style="background-color: rgb(21, 21, 23);">Упоминается важность ручного тестирования и понимания логики приложения.</span></span></p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_3UQT6ENQ">PDF					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_TDQVS4IW" class="item conferencePaper">
+			<h2>Web Application Penetration Testing with Artificial Intelligence: A Systematic Review</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Conference Paper</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Gustavo Sánchez</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Olakunle Olayinka</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Aryan Pasikhani</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>ÐPenetration testing is an intricate activity, yet vital for 
+the security of web applications and the protection of user data. Due to
+ its time-consuming nature, recent developments have emphasized the use 
+of artificial intelligence to enhance efficiency, shorten testing times,
+ and substantially improve penetration testing results. By combining 
+artificial intelligence with conventional penetration testing 
+techniques, researchers aim to improve the processes, providing 
+organizations with the means to create stronger web applications. This 
+paper presents a thorough review of research conducted between 2013 and 
+2024 on the application of artificial intelligence in web application 
+penetration testing. We highlight advancements and challenges in 
+employing learningbased methods to enhance penetration testing, 
+providing a comprehensive overview of the current state and future 
+directions in the field. Our results show that leveraging artificial 
+intelligence has proven to be more efficient than traditional 
+approaches, but they still face significant challenges.</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2024-10-24</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1109/NCA61908.2024.00043">10.1109/NCA61908.2024.00043</a></td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://ieeexplore.ieee.org/document/10945297/">https://ieeexplore.ieee.org/document/10945297/</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>9/9/2026, 7:52:45 PM</td>
+					</tr>
+					<tr>
+					<th>Short Title</th>
+						<td>Web Application Penetration Testing with Artificial Intelligence</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>License</th>
+						<td>https://doi.org/10.15223/policy-029</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>IEEE</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>Bertinoro, Italy</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>979-8-3315-1018-3</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>236-245</td>
+					</tr>
+					<tr>
+					<th>Proceedings Title</th>
+						<td>2024 22nd International Symposium on Network Computing and Applications (NCA)</td>
+					</tr>
+					<tr>
+					<th>Conference Name</th>
+						<td>2024 22nd International Symposium on Network Computing and Applications (NCA)</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>9/9/2026, 7:52:45 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>9/10/2026, 1:36:38 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>web applications</li>
+					<li>penetration testing</li>
+					<li>owasp</li>
+					<li>exploit</li>
+				</ul>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_QYEN4RJA">
+<div><div data-schema-version="9"><p><span style="color: rgb(249, 250, 251);"><span style="background-color: rgb(21, 21, 23);">Обзор
+ 49 научных работ (с 2013 по 2024 гг) по применению искусственного 
+интеллекта в пентесте веб-приложений. Рассматриваются методы ML, NLP, 
+RL.</span></span></p>
+<p><span style="color: rgb(249, 250, 251);"><span style="background-color: rgb(21, 21, 23);">Большинство
+ исследований сосредоточены на этапах сканирования и эксплуатации, чаще 
+всего для обнаружения SQLi и XSS. Выявлены проблемы: нехватка 
+размеченных датасетов, ограниченное применение RL и гибридных методов, 
+слабая воспроизводимость.</span></span></p>
+<p><span style="color: rgb(249, 250, 251);"><span style="background-color: rgb(21, 21, 23);">Перспективные направления: большие языковые модели (LLM), adversarial-атаки, защита данных.</span></span></p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_7JGYW733">PDF					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_JU85HATA" class="item conferencePaper">
+			<h2>Web application security vulnerabilities detection approaches: A systematic mapping study</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Conference Paper</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Sajjad Rafique</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Mamoona Humayun</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Bushra Hamid</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Ansar Abbas</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Muhammad Akhtar</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Kamil Iqbal</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>Number of security vulnerabilities in web application has 
+grown with the tremendous growth of web application in last two decades.
+ As the domain of Web Applications is maturing, large number of 
+empirical studies has been reported in web applications to address the 
+solution of vulnerable web application. However, before advancing 
+towards finding new approaches of web applications security 
+vulnerability detection, there is a need to analyze and synthesize 
+existing evidence based studies in web applications area. To do this, we
+ have planned to conduct a systematic mapping study to view and report 
+the state-of-the-art of empirical work in existing research of web 
+applications. In this paper, we aimed at providing a description of 
+mapping study for synthesizing the reported empirical research in the 
+area of web applications security vulnerabilities detection approaches. 
+The proposed solutions are mapped against: (1) the software development 
+stages for which the solution has been proposed and (2) the web 
+application vulnerabilities mapping according to OWASP Top 10 security 
+vulnerabilities. To do this, existing literature has been surveyed using
+ a systematic mapping study by phrasing two research questions. In the 
+mapping study, a total of 41 studies dating from 1994 to 2014 were 
+evaluated and mapped against the aforementioned categories.</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>6/2015</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1109/SNPD.2015.7176244">10.1109/SNPD.2015.7176244</a></td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="http://ieeexplore.ieee.org/document/7176244/">http://ieeexplore.ieee.org/document/7176244/</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>9/9/2026, 7:46:56 PM</td>
+					</tr>
+					<tr>
+					<th>Short Title</th>
+						<td>Web application security vulnerabilities detection approaches</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>IEEE</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>Takamatsu</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-1-4799-8676-7</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>1-6</td>
+					</tr>
+					<tr>
+					<th>Proceedings Title</th>
+						<td>2015 IEEE/ACIS 16th International Conference on Software 
+Engineering, Artificial Intelligence, Networking and 
+Parallel/Distributed Computing (SNPD)</td>
+					</tr>
+					<tr>
+					<th>Conference Name</th>
+						<td>2015 IEEE/ACIS 16th International Conference on Software 
+Engineering, Artificial Intelligence, Networking and 
+Parallel/Distributed Computing (SNPD)</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>9/9/2026, 7:46:56 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>9/10/2026, 11:55:50 AM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>vulnerabilities</li>
+					<li>web applications</li>
+					<li>owasp</li>
+				</ul>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_YQ5X65JN">
+<div><div data-schema-version="9"><p><span style="color: rgb(249, 250, 251);"><span style="background-color: rgb(21, 21, 23);">В статье рассматривается уязвимость “Недостаток контроля доступа” (A01 из OWASP Top 10).</span></span></p>
+<p><span style="color: rgb(249, 250, 251);"><span style="background-color: rgb(21, 21, 23);">Анализируются
+ причины её возникновения: слабые пароли, неправильная настройка списков
+ контроля доступа, недостаточные разрешения, отсутствие аудита и 
+многофакторной аутентификации. </span></span></p>
+<p><span style="color: rgb(249, 250, 251);"><span style="background-color: rgb(21, 21, 23);">Приведены
+ примеры уязвимого кода на Java и Python, где отсутствует проверка прав 
+пользователя. Предложены меры защиты: регулярный аудит, использование 
+инструментов Netsparker, Burp Suite, Metasploit, внедрение MFA и 
+шифрования.</span></span></p>
+<p></p>
+<p>MFA &nbsp;- многофакторная аутентификация. Это метод защиты данных, 
+при котором для входа в систему или подтверждения личности нужно указать
+ два или более разных фактора (биометрия, код из смс и т.п.).</p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_Q8WKPNAF">PDF					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_F2N8JD2K" class="item attachment">
+			<h2>YAnovich_Nedostatok.pdf</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Attachment</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://libeldoc.bsuir.by/bitstream/123456789/59594/1/YAnovich_Nedostatok.pdf">https://libeldoc.bsuir.by/bitstream/123456789/59594/1/YAnovich_Nedostatok.pdf</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>9/9/2026, 9:23:22 PM</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>9/9/2026, 9:23:22 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>9/10/2026, 1:49:49 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>vulnerabilities</li>
+					<li>web applications</li>
+					<li>access control</li>
+				</ul>
+			</li>
+
+
+			<li id="item_WF8QCWA6" class="item journalArticle">
+			<h2>Тестирование и анализ уязвимостей мобильных и веб-приложений на основе «Общих критериев»</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Александр Милаков</td>
+					</tr>
+					<tr>
+						<th class="contributor">Contributor</th>
+						<td>Милаков А.С.</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>The article examines the vulnerability of mobile and web 
+applications, as well as the threats that can violate the 
+confidentiality, integrity and availability of information. The author 
+analyses the problem of application security breaches, which is 
+especially relevant in the financial sphere. This issue can be addressed
+ through periodic vulnerability assessment of financial applications. 
+The paper provides a literature review on the subject of testing and 
+analysing application vulnerabilities according to the methodology of 
+GOST R ISO/IEC 18045-2013. The author describes in detail the process of
+ testing mobile and web applications based on the ‘Common criteria'. The
+ paper discusses the practice of application testing and focused 
+application vulnerability analysis. The workprovides practical results 
+of evaluating a web application for vulnerabilities according to the 
+estimated confidence levels (GTC-4). Based on the results of application
+ testing, the author concludes that it is necessary to implement secure 
+application development processes in companies that create software for 
+the financial sector.</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2025-05-16</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.60797/IRJ.2025.155.1">10.60797/IRJ.2025.155.1</a></td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://research-journal.org/archive/5-155-2025-may/10.60797/IRJ.2025.155.1">https://research-journal.org/archive/5-155-2025-may/10.60797/IRJ.2025.155.1</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>9/9/2026, 9:22:56 PM</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>ru</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Datacite)</td>
+					</tr>
+					<tr>
+					<th>License</th>
+						<td>Creative Commons Attribution 4.0 International</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Artwork Size: 16
+Medium: text/html</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>ООО Цифра</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>16</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Международный научно-исследовательский журнал</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>2303-9868</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>9/9/2026, 9:22:56 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>9/9/2026, 9:22:57 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>banks</li>
+					<li>common criteria</li>
+					<li>confidence score</li>
+					<li>dynamic analysis</li>
+					<li>financial organisations</li>
+					<li>mobile applications</li>
+					<li>static analysis</li>
+					<li>testing</li>
+					<li>threat model</li>
+					<li>threats</li>
+					<li>vulnerabilities</li>
+					<li>vulnerability analysis</li>
+					<li>web applications</li>
+					<li>анализ уязвимостей</li>
+					<li>банки</li>
+					<li>веб-приложения</li>
+					<li>динамический анализ</li>
+					<li>мобильные приложения</li>
+					<li>модель угроз</li>
+					<li>общие критерии</li>
+					<li>оценочный уровень доверия</li>
+					<li>статический анализ</li>
+					<li>тестирование</li>
+					<li>угрозы</li>
+					<li>уязвимости</li>
+					<li>финансовые организации</li>
+				</ul>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_K4ZN5EZT">
+<div><div data-schema-version="9"><p><span style="color: rgb(249, 250, 251);"><span style="background-color: rgb(21, 21, 23);">Описана
+ методология оценки безопасности мобильных и веб-приложений в финансовом
+ секторе на основе “Общих критериев” (из ГОСТ Р ИСО/МЭК 15408/18045).</span></span></p>
+<p><span style="color: rgb(249, 250, 251);"><span style="background-color: rgb(21, 21, 23);">Рекомендовано
+ обновление PHP, удаление демо-компонентов и внедрение безопасной 
+разработки. Сделан вывод о необходимости регулярной оценки по ОУД-4 для 
+финансовых приложений</span></span></p>
+<p></p>
+<p>ОУД-4 (Оценочный уровень доверия 4) - это стандартизированный уровень
+ оценки безопасности и надежности программного или аппаратного 
+обеспечения в соответствии с международными и российскими стандартами </p>
+</div></div>
+					</li>
+					<li id="item_SJ82BLN7">
+<p class="plaintext">&lt;h2&gt;SeriesInformation&lt;/h2&gt;
+Международный научно-исследовательский журнал, Выпуск 5 (155) 2025</p>
+					</li>
+				</ul>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_QZVJ3XTY">PDF					</li>
+				</ul>
+			</li>
+
+		</ul>
+	
+</body></html>
